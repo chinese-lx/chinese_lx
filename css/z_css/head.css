@@ -1,0 +1,68 @@
+#z_head{
+    background-color: #444;
+}
+.z_header{
+    width: 1200px;
+    margin: 0 auto;
+}
+.z_header .z_cont li{
+    float: left;
+    padding: 10px 8px;
+}
+.z_header .z_cont li a {
+	color:#cacaca;
+}
+.z_header .z_cont li a:hover{
+	color: white;
+	text-decoration: underline;
+	
+}
+.z_header .z_phone{
+	padding: 10px 0 10px 8px ;
+}
+.z_header .z_phone a {
+	display: block;
+	color:#cacaca;
+	width: 52px;
+	background: url(../../img/z_img/maker/pic02.png) no-repeat;
+	background-position:34px -114px ;
+}
+.z_header .z_phone a:hover{
+	/* background-position:33px -80px ; */
+	color: white;
+}
+.z_header .z_qrCode{
+	width: 150px;
+	height: 150px;
+	background: url(../../img/z_img/maker/qrcode.jpg) center no-repeat;
+	background-color: white;
+	position: absolute;
+	left: 433px;
+	top: 36px;
+	display: none;
+}
+.z_header .z_news{
+	margin-left: 86px;
+	padding: 10px 0;
+	position: relative;
+}
+
+.z_header .z_news p {
+	position: absolute;
+	width: 430px;
+	display: inline-block;
+	left: 20px;
+	top: 9px;
+}
+.z_header .z_news p a{
+	color: #a4a4a4;
+}
+.z_header .z_news p a:hover{
+	text-decoration: underline;
+}
+.z_logo{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
