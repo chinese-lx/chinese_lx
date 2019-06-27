@@ -1,3 +1,4 @@
+/* 头部 */
 #z_head{
     background-color: #444;
 }
@@ -18,17 +19,18 @@
 	
 }
 .z_header .z_phone{
-	padding: 10px 0 10px 8px ;
+	height: 36px;
+	line-height: 36px;
+	padding-left: 10px;
 }
 .z_header .z_phone a {
 	display: block;
 	color:#cacaca;
 	width: 52px;
 	background: url(../../img/z_img/maker/pic02.png) no-repeat;
-	background-position:34px -114px ;
+	background-position:34px -105px ;
 }
 .z_header .z_phone a:hover{
-	/* background-position:33px -80px ; */
 	color: white;
 }
 .z_header .z_qrCode{
@@ -40,22 +42,28 @@
 	left: 433px;
 	top: 36px;
 	display: none;
+	z-index: 9999;
 }
 .z_header .z_news{
 	margin-left: 86px;
-	padding: 10px 0;
-	position: relative;
+	height: 36px;
+	line-height: 36px;
 }
-
+.z_header .z_news img{
+	margin-top: 10px;
+}
 .z_header .z_news p {
-	position: absolute;
+	position: relative;
 	width: 430px;
 	display: inline-block;
-	left: 20px;
-	top: 9px;
+	padding-left:5px;
+
 }
 .z_header .z_news p a{
+	position: absolute;
 	color: #a4a4a4;
+	margin-top:-23px; 
+	display: inline-block;
 }
 .z_header .z_news p a:hover{
 	text-decoration: underline;
@@ -65,4 +73,91 @@
 	left: 0;
 	top: 0;
 	z-index: 999;
+}
+/* nav */
+#z_nav{
+	background-color: #333;
+}
+.z_subnav{
+	width: 1200px;
+	margin: 0 auto;
+}
+.z_subnav .nav li{
+	float: left;
+	padding: 18px 0;
+	padding-right: 26px;
+	font-size: 16px;
+}
+.z_subnav .nav li a{
+	color: white;
+}
+.z_subnav .nav li a:hover{
+	text-decoration: underline;
+}
+.z_subnav .nav_search{
+    background: #747474;
+    width: 270px;
+    height: 36px;
+    border-radius: 36px;
+    float: left;
+    margin-left: 162px;
+    margin-top:10px;
+    box-sizing: border-box;
+	padding: 0 20px;
+	position: relative;
+}
+
+.z_subnav .nav_search input{
+    height: 36px;
+    width: 200px;
+    color:#fff;
+    line-height: 36px;
+    border: 0;
+	background: none;
+}
+.nav_search input::-webkit-input-placeholder{
+	color: #d3d3d3;
+}
+.z_subnav .nav_search a{
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 30px;
+	background: #fff;
+}
+.z_subnav .login{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.z_subnav .shopCart{
+	width: 50px;
+	position: relative;
+	margin-top: 12px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.z_subnav .shopCart a {
+	width: 25px;
+	height: 23px;
+	margin-top: 5px;
+	background: url(../../img/z_img/maker/pic02.png) no-repeat;
+	display: inline-block;
+}
+.z_subnav .shopCart .cart_count{
+	width: 17px;
+	height: 19px;
+	position: absolute;
+	left: 30px;
+	top: -5px;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	background: url(../../img/z_img/maker/pic02.png) no-repeat;
+	background-position: -7px -45px;
 }
