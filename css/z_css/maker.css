@@ -1,0 +1,41 @@
+#z_banner{
+	height: 500px;
+}
+#z_banner .banner_1{
+	background: url(../../img/z_img/maker/banner1.jpg) no-repeat;
+}
+#z_banner .banner_2{
+	background: url(../../img/z_img/maker/banner2.jpg) no-repeat;
+}
+#z_banner .banner_3{
+	background: url(../../img/z_img/maker/banner3.jpg) no-repeat;
+}
+#z_banner .banner_4{
+	background: url(../../img/z_img/maker/banner4.jpg) no-repeat;
+}
+#z_banner .swiper-slide{
+	background-size: 100%;
+}
+#z_banner .z_slide{
+	height:290px;
+	width: 470px;
+	background: #fff;
+	opacity: 0.78;
+	float: right;
+	margin-top: 100px;
+	margin-right: 67px;
+}
+#z_banner .paging{
+	bottom: 0;
+}
+
+#z_banner .paging span{
+	width: 160px;
+	height:52px;
+	border-radius: 0;
+	background-color: #eaeaea;
+	opacity: 0.8;
+}
+#z_banner .paging .swiper-pagination-bullet-active{
+	padding: 10px 0 ;
+}

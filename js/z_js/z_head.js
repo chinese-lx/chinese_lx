@@ -1,47 +1,32 @@
 $(function(){
 	//手机二维码显示隐藏
 	$('.z_phone a').mouseover(function(){
-		$('.z_qrCode').show('fast','linear');
-		$(this).css('background-position','33px -80px');
+		$('.z_qrCode').slideDown('fast','linear');
+		$(this).css('background-position','33px -71px');
 	});
-	$('.z_qrCode').mouseout(function(){
-		$('.z_qrCode').hide('fast','linear');
-		$('.z_phone a').css('background-position','34px -114px');
+	$('.z_phone a').mouseout(function(){
+		$('.z_qrCode').slideUp('fast','linear');
+		$(this).css('background-position','34px -105px');
 	});
-//	setInterval(function(){
-//		$('.z_news p').animate({top:-15},500,'swing')
-//	},1000)
 	//公告轮播
-	//console.log(pTop);
+	//清除计时器有点问题
 	var timer = setInterval(autoPlay,2000);
 	$('.z_news').bind({
-		
 		mouseover:function(){
-			console.log('mouseover');
 			clearInterval(timer);
 		},
 		mouseout:function(){
-			console.log('mouseout');
 			timer = setInterval(autoPlay,2000);
 		}
 	})
-	// $('.z_news').hover(
-	// 	function(){
-	// 		console.log(timer);
-	// 		clearInterval(timer);
-	// 	},
-	// 	function(){
-	// 		timer = setInterval(autoPlay,2000);
-	// 	}
-	// )
-	
 	function autoPlay(){
-		var pTop = parseInt($('.z_news p').css('top'));
-		if(pTop == -15){
-			$('.z_news p').attr('style','top=9px');
+		var aTop = parseInt($('.z_news p a').css('marginTop'));
+		if(aTop == -50){
+			$('.z_news p a').css('marginTop','-23px');
 		}
-		//setTimeout(function(){
-			$('.z_news p').animate({top:-15},800,'linear');
-		//},1000)
+		setTimeout(function(){
+			$('.z_news p a').animate({marginTop:-50},800,'linear');
+		},1000)
 	}
+	
 })
