@@ -28,5 +28,23 @@ $(function(){
 			$('.z_news p a').animate({marginTop:-50},800,'linear');
 		},1000)
 	}
-	
+	//头部浏览器滚动动画
+	$(window).scroll(function(){
+		var sTop = $(document).scrollTop();
+		if(sTop>90){
+			$('#z_nav').css({
+				'position':'fixed',
+				'top':0,
+				'z-index':999
+			});
+			$('.z_logo a img').attr({'src':'../img/z_img/maker/logo_L.jpg','width':'56'});
+			$('#z_head').css('margin-bottom','118px')
+		}else{
+			$('#z_nav').css({
+				'position':'static'
+			});
+			$('.z_logo a img').attr({'src':'../img/z_img/maker/logo.jpg','width':'auto'});
+			$('#z_head').css('margin-bottom','0')
+		}
+	})
 })
