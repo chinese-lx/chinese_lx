@@ -3,7 +3,7 @@ $(function(){
 	var mySwiper = new Swiper('#z_banner', {
 		//自动播放
 		autoplay: {
-			delay: 500,
+			delay: 1000,
 			stopOnLastSlide: false,
 			disableOnInteraction: false,
 		},
@@ -13,7 +13,6 @@ $(function(){
 			el: '.swiper-pagination',
 			clickable :true,
 		}
-
 	})
 	//鼠标放上暂停轮播
 	mySwiper.el.onmouseover = function(){ 
@@ -23,7 +22,15 @@ $(function(){
 	mySwiper.el.onmouseleave = function(){
 		mySwiper.autoplay.start();
 	}
-
+	//分页器上的字
+	$('.paging span:eq(0)').html('小新美图定制');
+	$('.paging span:eq(1)').html('ThinkPad美图定制');
+	$('.paging span:eq(2)').html('ThinkPad专属定制');
+	$('.paging span:eq(3)').html('联想拯救者专属定制');
+	
+	
+	
+	
 	
 	
 	
