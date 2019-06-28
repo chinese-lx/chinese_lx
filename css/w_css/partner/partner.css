@@ -44,8 +44,28 @@
 }
 .pic1{
     float: left;
-    
+  
+}
+.pic1 p{
+    position: relative;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.pic1 em{
+    display: inline-block;
+    height:122px;
+    position: relative;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
 
+}
+.pic1 p:hover{
+    transform: translate3d(0, -2px, 0);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+.pic1 em:hover{
+    transform: translate3d(0, -2px, 0);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 .pic{
     padding:41px 0 0 153px
@@ -68,6 +88,7 @@
     height:803px;
     width:1200px;
     margin: 0 auto;
+    margin-bottom: 60px;
     
 }
 .day_left{
