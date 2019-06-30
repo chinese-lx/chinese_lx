@@ -1,0 +1,262 @@
+#z_head{
+    background-color: #000;
+    min-width: 1320px;
+    height: 38px;
+    .z_header{
+        background-color: #000;
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        ul{
+            height: 38px;
+            li {
+                margin-top: 11px;
+                float: right;
+                height: 14px;
+                border-right: 1px solid #fff;
+                &:first-child{
+                    border: 0;
+                    height: 38px;
+                    line-height: 38px;
+                    margin-top: 0;
+                    padding-right:20px;
+                    background: url(../../img/z_img/maker/pic02.png) no-repeat;
+                    background-position: 42px -41px;
+                    position: relative;
+                    span{
+                        position: absolute;
+                        top:-5px;right:15px;
+                        color: #fff;
+                    }
+                }
+                a{
+                    color: #fff;
+                    padding: 0 10px;
+                    &:hover{
+                        color: red;
+                    }
+                }
+            }
+        }
+        .z_logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            img{
+                width: 52px;
+            }
+        }
+    }
+}
+/* head end */
+#z_banner{
+    height: 880px;
+    background: url(../../img/z_img/srdz/banner.jpg) no-repeat center;
+    min-width: 1320px;
+    background-size: cover;
+}
+#z_main{
+    height: 480px;
+    background: url(../../img/z_img/srdz/main.jpg) no-repeat center;
+    min-width: 1320px;
+    background-size: cover;
+    ul{
+        width: 1160px;
+        margin: 0 auto;
+        li{
+           width: 287px;
+           height: 350px;
+           float: right; 
+           a{
+               display: block;
+               width: 100%;
+               height: 100%;
+           }
+        }
+    }
+}
+@mixin contentPublic {
+    .content1_buy{
+        width: 340px;
+        height: 580px;
+        margin-top: 80px;
+        margin-left:720px; 
+        a{
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+#z_content1{
+    height: 734px;
+    background: url(../../img/z_img/srdz/content1.jpg) no-repeat center;
+    min-width: 1320px;
+    background-size: cover;
+    overflow: hidden;
+    .content1{
+        width: 1200px;
+        height: 734px;
+        margin: 0 auto;
+        @include contentPublic;
+    }
+}
+@mixin computerPublic {
+    li{
+        width: 182px;
+        height: 376px;
+        float: left;
+        background-color: #fff;
+        margin-right: 7px;
+        padding: 12px;
+        .tips{
+            text-align: center;
+            margin-top:12px; 
+            height: 28px;
+            span{
+                display: inline-block;
+                padding: 5px 10px;
+                border: 1px dashed red;
+                color: red;
+                font-weight: bold;
+            }
+        }
+        a{
+            margin-top: 10px;
+            display: block;
+            .list_img{
+                width: 180px;
+                height: 180px;
+                margin: 0 auto;
+                img{
+                    width: 100%;
+                    height: 100%; 
+                }
+            }
+            .name{
+                margin-top: 30px;
+                height: 37px;
+                font-weight: bold;
+                width: 100%;
+                white-space: normal;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                border-bottom: 1px dashed #dadada;
+            }
+            .title{
+                color: #959595;
+                height: 32px;
+                margin-top: 9px;
+                /*多行文本出现省略号*/
+                width: 100%;
+                overflow: hidden;
+                -webkit-line-clamp:2;
+                display: -webkit-box;
+                -webkit-box-orient:vertical;
+                text-overflow: ellipsis;
+            }
+            .price{
+                margin-top:17px;
+                color: #E1140A;
+                line-height: 21px;
+                height: 21px;
+                span{
+                    float: left;
+                    display: block;
+                    height: 100%;
+                    line-height: 26px;
+                }
+                b{
+                    float: left;
+                    font-size: 18px;
+                } 
+                i{
+                    float: right;
+                    color:#fff;
+                    background-color: #E1140A;
+                    padding: 3px 7px;
+                }
+            }
+        }
+    }
+}
+#z_products1{
+    min-width: 1320px;
+    background-color: #eef7fc;
+    .computer1{
+        width: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+        ul {
+            margin-top: 57px;
+            margin-left: 72px;
+            padding-bottom: 7px;
+            @include computerPublic;
+        }
+    }
+}
+#z_content2{
+    height: 734px;
+    background: url(../../img/z_img/srdz/content2.jpg) no-repeat center;
+    min-width: 1320px;
+    background-size: cover;
+    overflow: hidden;
+    .content2{
+        width: 1200px;
+        height: 734px;
+        margin: 0 auto;
+        .content2_buy{
+            width: 340px;
+            height: 580px;
+            margin-top: 80px;
+            margin-left:120px; 
+            a{
+                display: block;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+#z_products2{
+    min-width: 1320px;
+    background-color: #ebf3db;
+    .computer2{
+        width: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+        ul {
+            margin-top: 57px;
+            margin-left: 72px;
+            padding-bottom: 42px;
+            @include computerPublic;
+        }
+    }
+}
+#z_foot{
+    height: 239px;
+    background: url(../../img/z_img/srdz/foot.jpg) no-repeat center;
+    min-width: 1320px;
+    background-size: cover;
+}
+#z_more{
+    height: 130px;
+    background: url(../../img/z_img/srdz/more.jpg) no-repeat center;
+    min-width: 1320px;
+    background-size: cover;
+}
+#z_products_more{
+    min-width: 1320px;
+    background-color: #ebebeb;
+    .products_more{
+        width: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+        ul {
+            margin-top: 57px;
+            margin-left: 72px;
+            padding-bottom: 120px;
+            @include computerPublic;
+        }
+    }
+}

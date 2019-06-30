@@ -26,14 +26,5 @@ $(function(){
 	$('.paging span:eq(0)').html('小新美图定制');
 	$('.paging span:eq(1)').html('ThinkPad美图定制');
 	$('.paging span:eq(2)').html('ThinkPad专属定制');
-	$('.paging span:eq(3)').html('联想拯救者专属定制');
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	$('.paging span:eq(3)').html('联想拯救者专属定制');	
 })

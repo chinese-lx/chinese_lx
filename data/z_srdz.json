@@ -1,0 +1,110 @@
+[{
+    "computer1": [{
+            "path": "../img/z_img/srdz/list1.jpg",
+            "tips": "MX250显卡",
+            "name": "小新 Air 13 湖光蓝",
+            "title": "i7-8565U/8G/512G SSD/MX250",
+            "price": "5999"
+        },
+        {
+            "path": "../img/z_img/srdz/list2.jpg",
+            "tips": "性能增强版全新第八代处理",
+            "name": "小新 Air 13 13.3英寸超清薄笔记本 轻奢灰",
+            "title": "i7-8565U/8G/512G SSD/MX250",
+            "price": "5999"
+        },
+        {
+            "path": "../img/z_img/srdz/list3.jpg",
+            "tips": "512G大容量SSD",
+            "name": "小新 Air 13 13.3英寸超清薄笔记本",
+            "title": "i7/8G/512G SSD/MX150/轻奢灰",
+            "price": "5999"
+        },
+        {
+            "path": "../img/z_img/srdz/list4.jpg",
+            "tips": "轻至1.25kg",
+            "name": "小新 Air 13 13.3英寸超清薄笔记本",
+            "title": "i7/8G/512G SSD/MX150/湖光蓝",
+            "price": "5999"
+        },
+        {
+            "path": "../img/z_img/srdz/list5.jpg",
+            "tips": "",
+            "name": "小新 Air 13 轻奢灰",
+            "title": "i5-8265U/8G/5256G SSD/集成显卡/轻奢灰",
+            "price": "4699"
+        }
+    ],
+    "computer2": [{
+            "path": "../img/z_img/srdz/list6.jpg",
+            "tips": "2019款",
+            "name": "2019款 小新 Air 15",
+            "title": "酷睿i7-8565U/72%NTSC高色域/8GB/1T SSD/GeForce MX250 2G独显/轻奢灰",
+            "price": "6599"
+        },
+        {
+            "path": "../img/z_img/srdz/list7.jpg",
+            "tips": "满血版显卡",
+            "name": "小新 Air 15 15.6英寸超轻薄笔记本",
+            "title": "i5/8G/512G SSD/MX150/灰色",
+            "price": "4899"
+        },
+        {
+            "path": "../img/z_img/srdz/list8.jpg",
+            "tips": "性能增强版全新第八代处理",
+            "name": "小新 Air 15 15.6英寸超轻薄笔记本",
+            "title": "i5/8G/256G SSD/MX150/灰",
+            "price": "5299"
+        },
+        {
+            "path": "../img/z_img/srdz/list9.jpg",
+            "tips": "全高清IPS屏幕",
+            "name": "小新 Air 15 15.6英寸超轻薄笔记本",
+            "title": "i5/8G/256G SSD/MX150/金",
+            "price": "5299"
+        },
+        {
+            "path": "../img/z_img/srdz/list10.jpg",
+            "tips": "超薄金属机身",
+            "name": "小新 Air 15 15.6英寸超轻薄笔记本",
+            "title": "酷睿i5-8250U/Windows 10 家庭中文版/15.6英寸/8G/256G SSD/GeForce MX150 2G独显/轻奢灰",
+            "price": "5999"
+        }
+    ],
+    "products_more": [{
+        "path": "../img/z_img/srdz/list11.jpg",
+        "tips": "触控板秒变数字小键盘",
+        "name": "联想小新智能键盘（适配小新Air13）",
+        "title": "联想小新智能键盘（适配小新Air13）",
+        "price": "59"
+    },
+    {
+        "path": "../img/z_img/srdz/list12.jpg",
+        "tips": "双面真丝面料，智能温控",
+        "name": "小新|JERNANO 纳米热敷真丝眼罩",
+        "title": "小新|JERNANO 纳米热敷真丝眼罩",
+        "price": "109"
+    },
+    {
+        "path": "../img/z_img/srdz/list13.jpg",
+        "tips": "印花暗处发光",
+        "name": "LEGION拯救者T恤夜行者 黑色 M码",
+        "title": "",
+        "price": "99"
+    },
+    {
+        "path": "../img/z_img/srdz/list14.jpg",
+        "tips": "高效散热 六段可调",
+        "name": "拯救者LEGION铝合金散热支架 Y7000/Y7000P/Y9000K专属",
+        "title": "",
+        "price": "149"
+    },
+    {
+        "path": "../img/z_img/srdz/list15.jpg",
+        "tips": "一键开关，安全反光圈",
+        "name": "拯救者LEGION自动折叠黑胶晴雨伞Y7000/Y7000P/Y9000K专属",
+        "title": "",
+        "price": "99"
+    }
+]
+}]
