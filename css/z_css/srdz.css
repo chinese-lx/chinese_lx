@@ -129,6 +129,7 @@
 #z_products1 .computer1 ul li .tips {
   text-align: center;
   margin-top: 12px;
+  height: 28px;
 }
 #z_products1 .computer1 ul li .tips span {
   display: inline-block;
@@ -138,6 +139,7 @@
   font-weight: bold;
 }
 #z_products1 .computer1 ul li a {
+  margin-top: 10px;
   display: block;
 }
 #z_products1 .computer1 ul li a .list_img {
@@ -243,6 +245,7 @@
 #z_products2 .computer2 ul li .tips {
   text-align: center;
   margin-top: 12px;
+  height: 28px;
 }
 #z_products2 .computer2 ul li .tips span {
   display: inline-block;
@@ -252,6 +255,7 @@
   font-weight: bold;
 }
 #z_products2 .computer2 ul li a {
+  margin-top: 10px;
   display: block;
 }
 #z_products2 .computer2 ul li a .list_img {
@@ -347,6 +351,7 @@
 #z_products_more .products_more ul li .tips {
   text-align: center;
   margin-top: 12px;
+  height: 28px;
 }
 #z_products_more .products_more ul li .tips span {
   display: inline-block;
@@ -356,6 +361,7 @@
   font-weight: bold;
 }
 #z_products_more .products_more ul li a {
+  margin-top: 10px;
   display: block;
 }
 #z_products_more .products_more ul li a .list_img {
