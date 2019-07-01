@@ -11,7 +11,7 @@ header>div{
     width: 1200px;
     margin: 0 auto;
     height: 50px;
-}
+} 
 header ul li{
     float: left;;
     height: 50px;
@@ -39,14 +39,20 @@ header>div>div{
     line-height: 50px
 }
 header>div>div a:nth-of-type(1){
-    margin-right: 13px;
+    margin-right:40px;
     font-size: 12px;
     
 }
+header>div>div p{
+    position: absolute;
+    display: inline-block;
+    right: 36px;
+    color: #e1e1e1;
+}
 header>div>div a:nth-of-type(2){
     position: absolute;
-    top: 35px;
-    right: -25px;
+    
+    right: 10px;
 }
 
 .nav{

@@ -1,0 +1,166 @@
+var enter=document.querySelector('.enter');
+var register=document.querySelector('.register');
+var tuichu=document.querySelector('.tuichu');
+var ppmask=document.querySelector('.ppmask');
+var regist=document.querySelector('.regist');
+var login=document.querySelector('.login');
+var regist=document.querySelector('.regist');
+var zhucedle=document.querySelector('.zhucedle');
+var adv=document.querySelector('.adv');
+var zhuce2=document.querySelector('.zhuce2');
+register.onclick=function(){
+    enter.style.display="block";
+    ppmask.style.display='block';
+};
+tuichu.onclick=function(){
+    ppmask.style.display='none';
+    enter.style.display="none";
+}
+login.onclick=function(){ 
+    regist.style.display="block";
+    ppmask.style.display='block';
+
+    
+}
+zhucedle.onclick=function(){
+    ppmask.style.display="none";
+    regist.style.display="none";
+}
+adv.onclick=function(){
+    enter.style.display="block";
+    regist.style.display="none";
+    
+}
+zhuce2.onclick=function(){
+    enter.style.display="none";
+    regist.style.display="block";
+}
+$("#usname").focus(function(){})
+$("#usname").blur(function(){
+    var emVl=$("#usname").val();
+    var phRreg =/^1[3-9]\d{9}$/;
+    var emRreg=/^[1-9a-zA-Z]\w{2,19}@\w{2,10}(\.[a-zA-Z]{2,4}){1,}$/;
+    cc=emRreg.test(emVl); 
+    bb=phRreg.test(emVl);
+    console.log(cc)
+    console.log(bb)
+ if(cc||bb){
+
+ }else{
+        alert("邮箱/手机格式错误")
+    }
+});
+
+$("#password").focus(function(){})
+$("#password").blur(function(){
+    var pslvv=$("#password").val();
+    var psRreg = /^\d{6,8}$/;
+    dd=psRreg.test(pslvv);
+    console.log(dd)
+ if(dd){
+
+ }else{
+        alert("密码格式错误")
+    }
+});
+
+$("#phonee").focus(function(){})
+$("#phonee").blur(function(){
+    var emmVl=$("#phonee").val();
+    var phhRreg = /^1[3-9]\d{9}$/;
+    var emmRreg=/^[1-9a-zA-Z]\w{2,19}@\w{2,10}(\.[a-zA-Z]{2,4}){1,}$/;
+    ff=emmRreg.test(emmVl);
+    ee=phhRreg.test(emmVl);
+ if(ff||ee){
+
+ }else{
+        alert("邮箱/手机格式错误")
+    }
+});
+
+$("#passw").focus(function(){})
+$("#passw").blur(function(){
+    var psslvv=$("#passw").val();
+    var pssRreg = /^\d{6,8}$/;
+    jj=pssRreg.test(psslvv);
+ if(jj){
+
+ }else{
+        alert("密码格式错误")
+    }
+})
+
+
+    
+
+
+$('.submita').click(function () {  
+    var user = $("#usname").val()
+    var pass = $("#password").val()
+    var pass2 = $("#password2").val()
+    // if(emailReg.test(user)||phone.test(user)){
+    //     alert('aaaa')
+    // }pass2!=pass
+    if(user==""&pass==""){
+        alert("账号密码不能为空")
+    }else if(pass2!=pass){
+        alert("密码不一致 重新输入")
+}else{
+        $.ajax({     
+        url: '../data/w_json/login.php',
+        type: 'get',
+        data: "act=add&user="+user+"&pass="+pass,// login.php?act=xxx&user=用户名&pass=密码
+        dataType: 'json',
+        cache: false,
+        success: function (json){
+            alert(json.msg);
+            if(json.err==1){
+            $('.enter').css("display","none");
+            $('.ppmask').css("display","none");     
+            }else{
+                $('.enter').css("display","block");
+            $('.ppmask').css("display","block"); 
+        }
+        },
+        error: function (err) {
+            alert(err);
+        } 
+    });
+        }
+})
+
+$('.submita2').click(function () {
+    var user = $(".phvl").val()
+    var pass = $(".pwvl").val()
+    if(user==""&pass==""){
+        alert("账号密码不能为空")
+}else{
+    $.ajax({
+            url: '../data/w_json/login.php',
+            type: 'get',
+            data: "act=login&user="+user+"&pass="+pass,
+            dataType: 'json',
+            cache: false,//不使用缓存
+            success: function (json){
+                console.log(json)
+                alert(json.msg); 
+                if(json.err==1){
+                    $('.enter').css("display","block");
+                $('.ppmask').css("display","block");     
+                }else{
+                    $('.enter').css("display","none");
+                $('.ppmask').css("display","none"); 
+            }
+                
+                           
+            },
+            error: function (err) {
+                // console.log(err);
+                // $('.enter').css("display","block");
+                // $('.ppmask').css("display","block");     
+            }  
+        })
+    }
+    
+})
+
