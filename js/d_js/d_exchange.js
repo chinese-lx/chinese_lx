@@ -44,7 +44,7 @@ $(function () {
             if(json.length>10){
                 var all = result + '<div class="d_moregoods"><p>查看更多商品</p><div><img src="../img/d_img/d_morearr.png"></div></div>';
             }else{
-                var all = result + '<div class="d_moregoods"><p>没有了</p><div><img src="../img/d_img/d_morearr.png"></div></div>';
+                var all = result + '<div class="d_moregoods mb72"><p>没有了</p><div><img src="../img/d_img/d_morearr.png"></div></div>';
             }
             $('.d_jifenbox').html(all);
         }
