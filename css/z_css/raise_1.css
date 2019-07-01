@@ -1,0 +1,196 @@
+#z_breadcrumb {
+  width: 1200px;
+  margin: 0 auto;
+}
+#z_breadcrumb ul {
+  height: 44px;
+  line-height: 44px;
+}
+#z_breadcrumb ul li {
+  font-size: 14px;
+  float: left;
+}
+#z_breadcrumb ul li a {
+  color: #333;
+}
+
+#z_title {
+  font-size: 34px;
+  color: #35373a;
+  height: 90px;
+  line-height: 90px;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+#z_container {
+  width: 1200px;
+  margin: 33px auto;
+}
+#z_container .contaniner_raise {
+  float: right;
+}
+#z_container .contaniner_raise dl {
+  width: 348px;
+  padding-bottom: 38px;
+}
+#z_container .contaniner_raise dl dt {
+  font-size: 28px;
+  color: #000;
+  font-weight: bold;
+}
+#z_container .contaniner_raise dl dd {
+  font-size: 14px;
+  color: #a2a2a2;
+}
+#z_container .contaniner_raise .border {
+  margin-top: 21px;
+  border-top: 3px solid red;
+  border-bottom: 3px solid red;
+  border-radius: 3px;
+}
+#z_container .contaniner_raise .raise_mid p {
+  margin: 25px 0;
+  padding-right: 50px;
+  font-size: 14px;
+  color: #a2a2a2;
+}
+#z_container .contaniner_raise .raise_mid p span {
+  display: block;
+}
+#z_container .contaniner_raise .returns {
+  color: #a2a2a2;
+  padding: 5px 0;
+}
+#z_container .contaniner_raise .returns span {
+  color: red;
+}
+#z_container .contaniner_raise .delivery {
+  padding: 5px 0;
+  color: #a2a2a2;
+}
+#z_container .contaniner_raise .delivery span {
+  color: red;
+}
+
+#z_details {
+  width: 1200px;
+  margin: 0 auto;
+}
+#z_details .details_l {
+  width: 796px;
+  border: 1px solid #dedede;
+}
+#z_details .details_l .pro_nav {
+  border-bottom: 1px solid #dedede;
+}
+#z_details .details_l .pro_nav li {
+  float: left;
+  height: 67px;
+  line-height: 67px;
+  margin-left: 60px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#z_details .details_l .pro_nav li:first-child {
+  border-bottom: 2px solid #e2231a;
+}
+#z_details .details_l .pro_intro {
+  text-align: center;
+}
+#z_details .details_l .pro_intro div {
+  margin: 34px auto;
+}
+#z_details .details_l .pro_intro div img {
+  width: 750px;
+}
+#z_details .details_l .pro_comments .publish {
+  width: 690px;
+  margin: 40px auto 0;
+  text-align: center;
+}
+#z_details .details_l .pro_comments .publish textarea {
+  height: 50px;
+  width: 644px;
+  background-color: #ebebeb;
+  border: 1px solid #b8b8b8;
+  outline: none;
+  resize: none;
+  padding: 10px 22px;
+}
+#z_details .details_l .pro_comments .publish a {
+  display: inline-block;
+  float: right;
+  padding: 5px 20px;
+  border: 1px solid #c9c9c9;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 18px;
+}
+#z_details .details_l .pro_comments .comments {
+  margin: 0 53px;
+}
+#z_details .details_l .pro_comments .comments dl dt {
+  overflow: hidden;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 15px;
+}
+#z_details .details_l .pro_comments .comments dl dt img {
+  width: 40px;
+  border-radius: 50%;
+}
+#z_details .details_l .pro_comments .comments dl dt span {
+  padding-left: 10px;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+}
+#z_details .details_l .pro_comments .comments dl dt i {
+  padding-left: 10px;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  color: #b5b5b5;
+}
+#z_details .details_l .pro_comments .comments dl dd {
+  font-size: 16px;
+  padding-left: 50px;
+  height: 60px;
+}
+#z_details .details_l .participants dl {
+  width: 688px;
+  height: 40px;
+  line-height: 40px;
+  padding: 35px 0;
+  margin: 0 54px;
+  overflow: hidden;
+  border-bottom: 1px solid #dedede;
+}
+#z_details .details_l .participants dl dt {
+  float: left;
+  font-size: 26px;
+  color: #e2231a;
+  width: 177px;
+}
+#z_details .details_l .participants dl dd {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+}
+#z_details .details_l .participants dl dd i {
+  font-size: 18px;
+  padding-left: 10px;
+}
+#z_details .details_l .participants dl dd span {
+  padding-left: 10px;
+  color: #aeaeae;
+}
+#z_details .details_r {
+  width: 348px;
+  border: 1px solid #dedede;
+}
