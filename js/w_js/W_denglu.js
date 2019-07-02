@@ -40,7 +40,7 @@ zhuce2.onclick=function(){
     enter.style.display="none";
     regist.style.display="block";
 }
-$("#usname").focus(function(){})
+$("#usname").focus(function(){});
 $("#usname").blur(function(){
     var emVl=$("#usname").val();
     var phRreg =/^1[3-9]\d{9}$/;
