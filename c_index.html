@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>中国联想首页</title>
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="font/iconfont.css">
     <link rel="stylesheet" href="css/c_css/c_head.css">
     <link rel="stylesheet" href="css/c_css/c_index.css">
+    <link rel="stylesheet" href="css/d_css/exchange_footer.css">
+    <link rel="stylesheet" href="css/w_css/enter.css">
 </head>
 <body>
+    <!-- logo -->
     <img src="img/c_img/logo.jpg" alt="" class="c_logo">
+
+    
+
+<!-- 首页登陆 -->
     <header>
         <div>
             <ul>
@@ -24,40 +31,104 @@
                 <li><a href="" href="#">手机版</a></li>
                 <li><a href="" href="#">联想首页</a></li>
             </ul>
-            <a href="#"class="iconfont">&#xe64f;</a>
-            <div>
-                <a href="#">注册/登录</a>
-                <a href="#"><img src="img/c_img/dalibao.jps" alt=""></a>
+            
+            <div id="c_dl">
+                <a href="#"class="iconfont">&#xe64f;</a>
+                <a href="#" class="login">注册</a>
+                <span class="span11">|</span>
+                <a href="#" class="register">登录</a>
+                <a href="#" style="z-index: 9909;"class="dalibao"><img src="img/c_img/dalibao..png" alt=""></a>
             </div>
             
 
         </div>
     </header>
+
+    <!-- 导航栏 -->
     <div class="nav">
         <div class="c_nav">
-            <ul>
-                <li><a href="" href="#">私人定制</a></li>
-                <li><a href="" href="#">极速到家</a></li>
-                <li><a href="" href="#">合伙人</a></li>
-                <li><a href="" href="#">以旧换新</a></li>
-                <li><a href="" href="#">企业采购</a></li>
-                <li><a href="" href="#">兑换中心</a></li>
-                <li><a href="" href="#">中心</a></li>
+            <ul id="na_ul">
+                <li class="na_li"><a href="" href="#">私人定制</a></li>
+                <li class="na_li"><a href="" href="#">极速到家</a></li>
+                <li class="na_li"><a href="" href="#">合伙人</a></li>
+                <li class="na_li"><a href="" href="#">以旧换新</a></li>
+                <li class="na_li"><a href="" href="#">企业采购</a></li>
+                <li class="na_li"><a href="" href="#">兑换中心</a></li>
+                <li class="na_li"><a href="" href="#">中心</a></li>
             </ul>
             <div class="nav_ss">
                    <input type="text" name="" id="" placeholder="联想Z6 青春版"> 
                    <a href="#" class="iconfont">&#xe649;</a>
             </div>
+            
+            <div id="n_dl">
+                    <a class="iconfont">&#xe64f;</a>
+                    <a  class="login">注册</a>
+                    <span class="span11">|</span>
+                    <a class="register">登录</a>
+                    <a href="#" style="z-index: 9909;"class="dalibao"><img src="img/c_img/dalibao..png" alt=""></a>
+                </div> 
+            <a class="iconfont" id="sous2">&#xe649;</a>
+            <div id="c_ssk">
+                <input type="text" name="" id="">
+                <span id="c_stop">X</span>
+            </div>
         </div>
+
     </div>
 
+<!-- 登录 -->
+<div class="ppmask"></div>
+<div class="enter">
+    <div class="tuichu">
+        <a  class="tuichu"><svg t="1561792410387" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2340" width="48" height="48"><path d="M512 0c-283.105882 0-512 228.894118-512 512s228.894118 512 512 512 512-228.894118 512-512S795.105882 0 512 0z m222.870588 644.517647c24.094118 24.094118 24.094118 66.258824 0 90.352941-24.094118 24.094118-66.258824 24.094118-90.352941 0l-132.517647-132.517647-132.517647 138.541177c-24.094118 24.094118-66.258824 24.094118-90.352941 0-12.047059-18.070588-18.070588-30.117647-18.070588-48.188236s6.023529-36.141176 18.070588-48.188235l132.517647-132.517647-132.517647-126.494118c-12.047059-18.070588-18.070588-30.117647-18.070588-48.188235 0-18.070588 6.023529-36.141176 18.070588-48.188235 24.094118-24.094118 66.258824-24.094118 90.352941 0l132.517647 132.517647 132.517647-132.517647c24.094118-24.094118 66.258824-24.094118 90.352941 0 24.094118 24.094118 24.094118 66.258824 0 90.352941l-132.517647 132.517647 132.517647 132.517647z" p-id="2341" fill="#8a8a8a"></path></svg></a>
+    </div>
+    <h1>联想会员登录</h1>
+    <form>
+        <input type="text" class="phvl"placeholder="邮箱/手机" id="phonee">
+         </br>
+        <input type="password" class="pwvl" placeholder="密码" id="passw">
+        </br>
+        <input type="checkbox" class="automatic_login">自动登录
+        </br>
+        <button type="submit" class="submita2">登录</button> 
+        </form>
+        <div class="enterwz">
+        <a href="#">手机验证码快捷登录</a>
+        <a href="#" class="zhuce2">立即注册</a>
+        <em>|</em>
+        <a href="#">忘记密码？</a> 
+        </div> 
+        <hr style="width:126px;margin-left: 105px;margin-top:39px;"> 
+        <h2>其它登录方式</h2>
+        <hr style="width:126px;margin-top:39px;">
+        <div class="icon_jfb">
+            <a href=""class="iconfont icon-qq"></a>
+            <a href=""class="iconfont icon-weibo"></a>
+            <a href=""class="iconfont icon-weixin"></a>
+            <a href=""class="iconfont icon-zhifubao"></a>
+        </div>             
+</div>
+<!-- 注册 -->
+<div class="regist">
+        <div class="tuichu">
+            <a  class="zhucedle"><svg t="1561792410387" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2340" width="48" height="48"><path d="M512 0c-283.105882 0-512 228.894118-512 512s228.894118 512 512 512 512-228.894118 512-512S795.105882 0 512 0z m222.870588 644.517647c24.094118 24.094118 24.094118 66.258824 0 90.352941-24.094118 24.094118-66.258824 24.094118-90.352941 0l-132.517647-132.517647-132.517647 138.541177c-24.094118 24.094118-66.258824 24.094118-90.352941 0-12.047059-18.070588-18.070588-30.117647-18.070588-48.188236s6.023529-36.141176 18.070588-48.188235l132.517647-132.517647-132.517647-126.494118c-12.047059-18.070588-18.070588-30.117647-18.070588-48.188235 0-18.070588 6.023529-36.141176 18.070588-48.188235 24.094118-24.094118 66.258824-24.094118 90.352941 0l132.517647 132.517647 132.517647-132.517647c24.094118-24.094118 66.258824-24.094118 90.352941 0 24.094118 24.094118 24.094118 66.258824 0 90.352941l-132.517647 132.517647 132.517647 132.517647z" p-id="2341" fill="#8a8a8a"></path></svg></a>
+        </div> 
+        <h1>注册联想会员</h1>
+        <form>
+            <input type="text" class="phvl" id="usname" placeholder="邮箱/手机">
+             </br>
+            <input type="password" class="pwvl" id="password" placeholder="密码">
+            </br>
+            <input type="password" class="pwvl2" id="password2" placeholder="再次输入密码">
+            </br>
+            <button type="submit" class="submita">立即注册</button> 
+            </form>
+            <h3>注册账号即表示您同意并愿意遵守联想 <i>使用条款</i> 和<i> 隐<br>私权政策</i></h3>
+            <em>已有账号<a href="#" class="adv">点此登录></a></em>           
+    </div>
 
-
-
-
-
-
-
+<!--BANNER-->
     <div class="banner"id="banner1">
         <a href=""class="tu" style="display: block"><img src="img/c_img/bn/tu1.jpg" alt=""></a>
         <a href=""class="tu" style="display:none"><img src="img/c_img/bn/tu2.jpg" alt=""></a>
@@ -94,16 +165,17 @@
                     <a href="" >增值服务<i class="iconfont">&#xe644;</i></a>
                 </li>
             </ul>
-            
-        </div>
-        <div id="bn_lr">
+            </div>
+            <div id="bn_lr">
         <span class="bn_left iconfont"id="bn_l">&#xe6e1;</span>
         <span  class="bn_right iconfont"id="bn_r">&#xe644;</span>
         </div>
+        </div>
+        
 
-    </div>
+    
 
-
+<!-- 图标 -->
     <div class="c_hoot">
         <div class="hoot">
             <div>
@@ -172,10 +244,10 @@
         </div>
     </div>
 
-
+<!-- 主页内容 -->
     <div class="c_wrap">
 
-        <div class="c_bms">
+        <div class="c_bms" id="ms">
             <div class="c_zms">
                 <div class="c_ms">
                 <div class="daoshu">
@@ -256,9 +328,9 @@
                 <div class="c_ms">
                         <div class="daoshu">
                             <img src="img/c_img/ms/ms5.jpg" alt="">
-                            <span id="shi"></span>
-                            <span id="fen"></span>
-                            <span id="miao"></span>
+                            <span id="shi1"></span>
+                            <span id="fen1"></span>
+                            <span id="miao1"></span>
                             <br>
                             <a class="ms_l"></a>
                             <a id="ms_d2"class="ms_r"></a>
@@ -331,7 +403,7 @@
             </div>
         </div>
 
-        <div class="c_main">
+        <div class="c_main" id="main1">
             <p class="d_ban">
                 <span>1F Lenovo 电脑</span>
                 <a href="#">></a>
@@ -367,12 +439,12 @@
                                 </a>
                                 <a href="">
                                         <img src="img/c_img/dn/dn5.jpg" alt="">
-                                        <p>小新 14 14.0英寸轻薄笔记本 仙女</p>
+                                        <p>小新 14.0英寸轻薄笔记本 仙女</p>
                                         <p>￥ 5099</p>
                                     </a>
                                     <a href="">  
                                             <img src="img/c_img/dn/dn6.jpg" alt="">
-                                            <p>2019款 小新 Air 15 15.6英寸超轻</p>
+                                            <p>2019款 小新 Air 15.6英寸超轻</p>
                                             <p>￥ 6599</p>
                                         </a>
                                         <a href="">
@@ -390,7 +462,7 @@
                 
          </div>
         
-         <div class="c_main">
+         <div class="c_main"  id="main2">
                 <p class="d_ban">
                     <span>2F Lenovo 台式机</span>
                     <a href="#">></a>
@@ -450,8 +522,217 @@
              </div>
     </div>
 
-    
 
+<!-- 杜总的 -->
+    <div id="d_advantager">
+            <div id="d_advantage">
+                <img src="img/d_img/d_img31.jpg" alt="">
+            </div>
+        </div>
+        <div class="d_detailer">
+            <div class="d_detail clearfix">
+                <dl class="d_guidance">
+                    <dt>购物指南</dt>
+                    <dd><a href="#">服务商信息</a></dd>
+                    <dd><a href="#">购买流程</a></dd>
+                    <dd><a href="#">注册登录</a></dd>
+                </dl>
+            <dl class="d_guidance">
+                    <dt>配送方式</dt>
+                    <dd><a href="#">配送方式</a></dd>
+                    <dd><a href="#">配送方式信息</a></dd>
+                    <dd><a href="#">签收原则</a></dd>
+                    <dd><a href="#">物流查询</a></dd>
+            </dl>
+            <dl class="d_guidance">
+                    <dt>支付方式</dt>
+                    <dd><a href="#">分期支付</a></dd>
+                    <dd><a href="#">支付方式</a></dd>
+                    <dd><a href="#">支付问题</a></dd>
+            </dl>
+            <dl class="d_guidance">
+                    <dt>订单信息</dt>
+                    <dd><a href="#">订单信息</a></dd>
+                    <dd><a href="#">发票信息</a></dd>
+            </dl>
+            <dl class="d_guidance">
+                    <dt>售后服务</dt>
+                    <dd><a href="#">售后服务总则</a></dd>
+                    <dd><a href="#">24小时在线客服</a></dd>
+                    <dd><a href="#">手机激活查询</a></dd>
+            </dl>
+            <dl class="d_guidance">
+                    <dt>其他说明</dt>
+                    <dd><a href="#">服务承诺</a></dd>
+                    <dd><a href="#">账户安全</a></dd>
+                    <dd><a href="#">手机产品购买须知</a></dd>
+                    <dd><a href="#">环境信息</a></dd>
+            </dl>
+            </div>
+        </div>
+        <div class="d_footer">
+            <div class="d_foot clearfix">
+                <dl class="d_footdl">
+                    <dt>关于联想</dt>
+                    <dd><a href="#">投资者关系</a></dd>
+                    <dd><a href="#">工作关系</a></dd>
+                    <dd><a href="#">联系我们</a></dd>
+                    <dd><a href="#">销售网点查询</a></dd>
+                    <dd><a href="#">服务网点查询</a></dd>
+                </dl>
+                <dl class="d_footdl">
+                        <dt>联想商城</dt>
+                        <dd><a href="#">0元试用</a></dd>
+                        <dd><a href="#">极速到家</a></dd>
+                        <dd><a href="#">联想合伙人</a></dd>
+                        <dd><a href="#">私人定制</a></dd>
+                        <dd><a href="#">以旧换新</a></dd>
+                        <dd><a href="#">联想众筹</a></dd>
+                </dl>
+                <dl class="d_footdl">
+                        <dt>联想服务</dt>
+                        <dd><a href="#">驱动与软件下载</a></dd>
+                        <dd><a href="#">联想知识库</a></dd>
+                        <dd><a href="#">24小时只能客服</a></dd>
+                        <dd><a href="#">保修配置查询</a></dd>
+                        <dd><a href="#">服务政策查询</a></dd>
+                        <dd><a href="#">上门快修</a></dd>
+                        <dd><a href="#">延长保修</a></dd>
+                        <dd><a href="#">联想IT管理服务</a></dd>
+                </dl>
+                <dl class="d_footdl">
+                        <dt>联想网站群</dt>
+                        <dd><a href="#">联想创投</a></dd>
+                        <dd><a href="#">聚享汇</a></dd>
+                        <dd><a href="#">联想电脑管家</a></dd>
+                        <dd><a href="#">联想超融合</a></dd>
+                        <dd><a href="#">联想研究院</a></dd>
+                        <dd><a href="#">智慧医疗</a></dd>
+                        <dd><a href="#">联想百应平台</a></dd>
+                        <dd><a href="#">联想租赁商城</a></dd>
+                        <dd><a href="#">联想企业网盘</a></dd>
+                        <dd><a href="#">ThinkPad官网</a></dd>
+                        <dd><a href="#">lecoo商城</a></dd>
+                        <dd><a href="#">联想大数据</a></dd>
+                </dl>
+                <div class="d_contact">
+                    <div class="til">联想官方社交平台</div>
+                    <ul class="conlist clearfix">
+                        <li id="d_icon1">
+                            <p class="darkqqzone"></p>
+                            <p class="lightqqzone"></p>
+                        </li>
+                        <li id="d_icon2">
+                            <p class="darkweibo"></p>
+                            <p class="lightweibo"></p>
+                        </li> 
+                        <li id="d_icon3">
+                            <p class="darktriangle"></p>
+                            <p class="lighttriangle"></p>
+                        </li> 
+                    </ul>
+                    <div id="contacticon">
+                        <a id="contacticon_left" href="#">
+                            <p class="darkyqweibo"></p>
+                                <p class="lightyqweibo"></p>
+                        </a>
+                        <a id="contacticon_right" href="#">
+                            <p class="darktieba"></p>
+                            <p class="lighttieba"></p>
+                        </a>
+                    </div>
+                    <div class="selectcountry">
+                            选择国家和地区 
+                    </div>
+                    <div class="d_countries">
+                        <div class="all_countries">
+                            <ul>
+                                <li><a href="https://www.lenovo.com/dz/fr/">Algeria</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">Angola</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">Argentina</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">Austrilia</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">Austria</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">Bahrain</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">Bangladesh</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">Belarus</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">America</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">America</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">America</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">America</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">America</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">America</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">America</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">America</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">America</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">America</a></li>
+                                <li><a href="https://www.lenovo.com/dz/fr/">America</a></li>
+                            </ul>
+                        </div>
+                        <div id="cnimg"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="d_bottom">
+            <div class="d_bot clearfix">
+                <p class="d_bot_left">版权所有:1998-2019 
+                    <a href="#">联想集团</a>
+                    <a href="#">法律公告</a>
+                    <a href="#">隐私权政策</a>
+                    <a href="#">产品安全</a>
+                </p>
+                <p class="d_bot_right">
+                    <span>京ICP备11035381</span>
+                    <span>京公网安备110108007970号</span>
+                    <span>营业执照:110000410127232</span>
+                </p>
+            </div>
+        </div>
+
+
+        <div id="mdj">
+                <a  id="jump1">秒杀</a>
+                <a id="jump2">1F</a>
+                <a id="jump3">2F</a>
+            </div>
+
+
+
+<!-- 右边热线栏 -->
+<div class="c_ri">
+        <ul class="ull">
+            <li class="lli">
+                <a class="lia"></a>
+                <a class="r_t"></a>
+            </li>
+            <li class="lli">
+                    <a class="lia"></a>
+                    <a class="r_t"></a>
+                </li>
+                <li class="lli">
+                        <a class="lia"></a>
+                        <a class="r_t"></a>
+                    </li>
+                    <li class="lli">
+                            <a class="lia"></a>
+                            <a class="r_t"></a>
+                        </li>
+                        <li class="lli">
+                                <a class="lia"></a>
+                                <a class="r_t"></a>
+                            </li>
+                            <li class="lli">
+                                    <a class="lia"></a>
+                                    <a class="r_t"></a>
+                                </li>
+                                <li class="lli">
+                                    <a href="" class="lia"></a>
+                                </li>
+        </ul>
+    </div>
+
+    
 
 </body>
 </html>
@@ -460,8 +741,9 @@
 <script src="js/c_js/jquery-1.8.3.js"></script>
 <script src="js/c_js/c_banner.js"></script>
 <script src="js/c_js/c_ms.js"></script>
-<script>
-    
-</script>
+<script src="js/c_js/c_head.js"></script>
+<script src="js/c_js/c_jump.js"></script>
+
+<script src="js/w_js/W_denglu.js"></script>
 
 
