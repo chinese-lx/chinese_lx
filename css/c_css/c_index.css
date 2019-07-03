@@ -25,6 +25,49 @@
     padding: 18px 20px;
     font-size: 16px
 }
+.ban ul li a:hover{
+    color: red;
+    background: #f7f7f7
+}
+
+.ban_tan{
+    position: relative;
+    width: 191px;
+    z-index: 999
+}
+
+.ban_tan li{
+    width: 191px
+}
+#b_tan1,#b_tan2,#b_tan3,#b_tan4 {
+    position: absolute;
+    left: 191px;
+    width: 1000px;
+    background: #f7f7f7;
+    box-sizing: border-box;
+    padding: 30px;
+    display: none;
+}
+#b_tan1 div p,#b_tan2 div p,#b_tan3 div p,#b_tan4 div p{
+    line-height: 30px;
+}
+#b_tan1 div p:nth-of-type(2),#b_tan2 div p:nth-of-type(2),#b_tan3 div p:nth-of-type(2),#b_tan4 div p:nth-of-type(2){
+    margin-left: 70px;
+    border-bottom: 1px #e5e5e5 solid;
+}
+#b_tan1 div p:nth-of-type(2) a,#b_tan2 div p:nth-of-type(2) a,#b_tan3 div p:nth-of-type(2) a,#b_tan4 div p:nth-of-type(2) a{
+    padding:0 15px;
+    border-left: 1px #e5e5e5 solid;
+
+}
+#b_tan1 div a:hover,#b_tan2 div a:hover,#b_tan3 div a:hover,#b_tan4 div a:hover{
+    color: red
+}
+
+
+
+
+
 
 #bn_lr{
     opacity: 0;
@@ -64,7 +107,7 @@
     bottom: 30px;
     text-align: center;
     width: 1200px;
-    left: 700px
+    left: 700px;
 }
 .b_d{
     width: 10px;
@@ -146,7 +189,11 @@
     background: #e83632;
     margin-right: 15px;
     text-align: center
+    
 }
+
+
+
 
 .daoshu span{
     display: inline-block;
@@ -154,6 +201,9 @@
     height: 40px;
     background: white;
     margin-top: 20px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold
 }
 
 .daoshu a{
@@ -312,7 +362,7 @@
 }
 .c_dn>div>a p:nth-of-type(1){
     margin-top: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     font-size: 16px;
 
 }

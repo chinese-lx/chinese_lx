@@ -1,0 +1,100 @@
+/* banner */
+#z_banner{
+	height: 500px;
+	width: 100%;
+	min-width:1320px;
+}
+ #z_banner .banner_1{
+	background: url(../../img/z_img/maker/banner1.jpg) no-repeat;
+	
+}
+#z_banner .banner_2{
+	background: url(../../img/z_img/maker/banner2.jpg) no-repeat;
+}
+#z_banner .banner_3{
+	background: url(../../img/z_img/maker/banner3.jpg) no-repeat;
+}
+#z_banner .banner_4{
+	background: url(../../img/z_img/maker/banner4.jpg) no-repeat;
+}
+#z_banner .swiper-slide{
+	background-size: cover;
+} 
+#z_banner .z_slide{
+	height:290px;
+	width: 470px;
+	background: #fff;
+	opacity: 0.78;
+	float: right;
+	margin-top: 100px;
+	margin-right: 67px;
+	color: #000;
+}
+#z_banner .z_slide span{
+	width: 94px;
+	height: 22px;
+	line-height: 22px;
+	margin-top: 33px;
+	margin-left: 33px;
+	display: inline-block;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+#z_banner .z_slide h3{
+	margin: 15px 0 12px 33px;
+	font-size: 32px;
+	
+}
+#z_banner .z_slide h4{
+	margin-left:33px;
+	margin-bottom: 28px;
+
+}
+#z_banner .z_slide a{
+	margin-left:33px;
+	margin-bottom: 10px;
+	width: 158px;
+	height: 38px;
+	display: inline-block;	
+}
+#z_banner .z_slide button{
+	width: 158px;
+	height: 38px;
+	font-size: 16px;
+	border: 1px solid #000;
+	outline: none;
+	cursor: pointer;
+	text-align: left;
+	padding-left: 33px;
+	border-radius: 3px;
+	background:url(../../img/z_img/maker/btn.png) no-repeat 108px 10px; 
+	background-size: 15px;
+}
+#z_banner .z_slide button:hover{
+	background-color: #000;
+	color: #fff;
+}
+#z_banner .z_slide p{
+	margin-left:33px;
+	margin-right: 33px;
+	line-height: 19px;
+
+}
+#z_banner .paging{
+	bottom: 0;
+}
+#z_banner .paging span{
+	width: auto;
+	height:50px;
+	line-height: 50px;
+	padding: 0 10px;
+	border-radius: 0;
+	background-color: #eaeaea;
+	opacity: 0.8;
+	font-size: 16px;
+	color: #333;
+}
+#z_banner .paging .swiper-pagination-bullet-active{
+	padding-top: 5px ;
+}
