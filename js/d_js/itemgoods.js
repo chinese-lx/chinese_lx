@@ -106,35 +106,36 @@ $(document).ready(function(){
             $('.d_leftarr').css('opacity','1');
         }
     });
-    //小图区箭头点击事件
-    //左箭头  点击箭头，当前的
+   
+    //小图区的箭头点击事件
+    //左箭头的点击
     $('.d_leftarr').click(function(){
-        //主要：找到当前的红框li
-        if($('.d_bigimg').attr('index')==1){
+        //如果当前的是第一张图
+        if($('.d_imgchecked').attr('index')==1){
             $(this).css('opacity','0.3');
-        }else{
+        }else{//如果不是第一张图
             $(this).css('opacity','1');
-            $('.d_imgsmall').find('li[index='+$(".d_bigimg").attr("index")+']').prev().addClass('d_imgchecked').siblings().removeClass('d_imgchecked');
-            var newIndex = $('.d_bigimg').attr('index')-1;
+            $('.d_imgchecked').removeClass('d_imgchecked').prev().addClass('d_imgchecked');
+            var newIndex = $('.d_imgchecked').attr('index');
             if(newIndex==1){
                 $(this).css('opacity','0.3');
             }
-            $('.d_bigimg').attr('index',newIndex);
             $('.d_bigimg').find('img').attr('src','../img/d_img/itemgoods/d_big'+newIndex+'.jpg'); 
         }
     });
+    //右箭头的点击事件
     $('.d_rightarr').click(function(){
-        //当到了第五张图时
-        if($('.d_bigimg').attr('index')==5){
-            
+        if($('.d_imgchecked').attr('index')==5){
+            // $('.d_imgsmall li').css('left','-450px');
+            return;
         }else{
-            $('.d_imgsmall').find('li[index='+$(".d_bigimg").attr("index")+']').next().addClass('d_imgchecked').siblings().removeClass('d_imgchecked');
-            var newIndex = parseInt($('.d_bigimg').attr('index'))+1;
-            $('.d_bigimg').attr('index',newIndex);
+            if( $('.d_imgchecked')==1){
+                $('.d_leftarr').css('opacity','0.3'); 
+            }
+            $('.d_leftarr').css('opacity','1'); 
+            $('.d_imgchecked').removeClass('d_imgchecked').next().addClass('d_imgchecked');
+            var newIndex = $('.d_imgchecked').attr('index');
             $('.d_bigimg').find('img').attr('src','../img/d_img/itemgoods/d_big'+newIndex+'.jpg'); 
         }
     });
-
-    
-
 });

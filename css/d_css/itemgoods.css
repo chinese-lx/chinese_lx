@@ -342,6 +342,7 @@ a.d_leftarr{
     border:1px solid #dcdcdc;
     float: left;
     margin-right:4px;
+    position:relative;
 }
 .d_imgsmall .d_imgchecked{
     border: solid 1px #e2231a;
