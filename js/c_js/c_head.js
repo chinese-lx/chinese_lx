@@ -29,7 +29,6 @@ r_li[i].onmouseout = function(){
     animate(r_t[i],{opacity:0},10);
 }
 }
-console.log(c_r[0].style)
 
 window.onmousewheel = function(){
     if(document.documentElement.scrollTop>300){
