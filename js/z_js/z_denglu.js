@@ -3,7 +3,6 @@ var register=document.querySelector('.register');
 var tuichu=document.querySelector('.tuichu');
 var ppmask=document.querySelector('.ppmask');
 var regist=document.querySelector('.regist');
-var login=document.querySelectorAll('.login');
 var regist=document.querySelector('.regist');
 var zhucedle=document.querySelector('.zhucedle');
 var adv=document.querySelector('.adv');

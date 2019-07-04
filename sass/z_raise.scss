@@ -14,19 +14,24 @@
     }
 }
 #z_banner{
-    margin: 0 auto;
-    width: 1200px;
-    position: relative;
-    .btn{
-        display: inline-block;
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background-color: black; 
-        position: absolute;
-        left: 50%;
-        bottom: 10px;
-    }
+    background-color: #fff;
+    width: 100%;
+    min-width: 1320px;
+    .z_banner1{
+        margin: 0 auto;
+        width: 1200px;
+        position: relative;
+        .btn{
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: black; 
+            position: absolute;
+            left: 50%;
+            bottom: 10px;
+        }
+    }  
 }
 @mixin commentsPublic {
     dl{
@@ -61,86 +66,92 @@
     }
 }
 #z_container{
-    margin: 60px auto 0;
-    width: 1200px;
-    border: 1px solid #dedede;
-    &:hover{
-        box-shadow: 5px 5px 5px rgba(214, 198, 198, 0.5);
-    }
-    .joinRaise{
-        width: 608px;
-        height: 447px;
-        margin-right:15px; 
-        margin-top: 20px;
-        .joinRaise_top{
-            .span1{
-                float: left;
-                font-size: 24px;
-                a{
-                    color: #333;
-                }
-            }
-            .span2{
-                float: right;
-                height: 30px;
-                line-height: 30px;
-                text-align: center;
-                width: 125px;
-                display: block;
-                font-size: 16px;
-                background-color: #e2231a;
-                border-radius:15px;
-                a{
-                    color: #fff;
-                }
-            }
+    background-color: #fff;
+    width: 100%;
+    min-width: 1320px;
+    .z_container1{
+        margin: 60px auto 0;
+        width: 1200px;
+        border: 1px solid #dedede;
+        &:hover{
+            box-shadow: 5px 5px 5px rgba(214, 198, 198, 0.5);
         }
-        .details{
-            margin-top:20px; 
-            line-height: 17px;
-        }
-        .border{
-            border-top:3px solid red;
-            border-bottom: 3px solid red;
-            border-radius:3px; 
-            margin-top: 40px;
-        }
-        .raiseInfor{
-            margin-top: 27px;
-            padding-bottom:34px;
-            border-bottom: 1px solid #dedede; 
-            dl{
-                float: left;
-                padding-right: 60px;
-                text-align: center;
-                &:last-child{
-                    padding-right: 0;
+        .joinRaise{
+            width: 608px;
+            height: 447px;
+            margin-right:15px; 
+            margin-top: 20px;
+            .joinRaise_top{
+                .span1{
+                    float: left;
+                    font-size: 24px;
+                    a{
+                        color: #333;
+                    }
                 }
-                dt{
-                    font-size: 22px;
-                    color: #333;
-                }
-                dd{
-                    font-size: 14px;
-                    color: #b5b5b5;
-                }
-            }
-        }
-        .comments{
-            overflow: hidden;
-            .comments_r{
-                margin-top: 15px;
-                float: left;
-                @include commentsPublic;
-            }
-            .more_comments{
-                float: right;
-                margin-top:19px; 
-                a{
+                .span2{
+                    float: right;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    width: 125px;
+                    display: block;
                     font-size: 16px;
-                    color: red;
+                    background-color: #e2231a;
+                    border-radius:15px;
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+            .details{
+                margin-top:20px; 
+                line-height: 17px;
+            }
+            .border{
+                border-top:3px solid red;
+                border-bottom: 3px solid red;
+                border-radius:3px; 
+                margin-top: 40px;
+            }
+            .raiseInfor{
+                margin-top: 27px;
+                padding-bottom:34px;
+                border-bottom: 1px solid #dedede; 
+                dl{
+                    float: left;
+                    padding-right: 60px;
+                    text-align: center;
+                    &:last-child{
+                        padding-right: 0;
+                    }
+                    dt{
+                        font-size: 22px;
+                        color: #333;
+                    }
+                    dd{
+                        font-size: 14px;
+                        color: #b5b5b5;
+                    }
+                }
+            }
+            .comments{
+                overflow: hidden;
+                .comments_r{
+                    margin-top: 15px;
+                    float: left;
+                    @include commentsPublic;
+                }
+                .more_comments{
+                    float: right;
+                    margin-top:19px; 
+                    a{
+                        font-size: 16px;
+                        color: red;
+                    }
                 }
             }
         }
     }
+    
 }
