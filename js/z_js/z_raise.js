@@ -40,4 +40,34 @@ $(function(){
 		$('#z_banner').animate({opacity:0},'slow','swing');
 		$('#z_banner').animate({opacity:1},'slow','swing');
 	}
+	//剩余天数
+	var startDate = new Date();
+	var endDate = new Date("2019-06-30 23:59:59");
+	var timer = (endDate.getTime() - startDate.getTime())/1000/60/60/24;
+	var lastDays = parseInt(timer);
+	if(lastDays==0){
+		lastDays = 0;
+		$('.joinRaise_top .span2').css('background','#7e7e7e')
+	}
+	$('.lastDays dt').html(lastDays);
+	//众筹数据
+	$.ajax({
+		url:'../data/z_raise.json',
+		dataType:'json',
+		type:'post',
+		success:function(json){
+			$.each(json,function(index,value){
+				if (index == 0 ) {
+					$('.joinRaise .joinRaise_top .span1 a').html(value.title);
+					$('.joinRaise .details').html(value.details);
+					$('.joinRaise .raiseInfor .raiseMoney').html(value.raiseMoney);
+					$('.joinRaise .raiseInfor .targetMoney ').html(value.targetMoney);
+					$('.joinRaise .raiseInfor .person ').html(value.person);
+					var progress = (value.raiseMoney.substr(1)/value.targetMoney.substr(1)*100).toFixed(1)+'%';
+					$('.joinRaise .raiseInfor .progress').html(progress);
+				}
+			})
+		}
+	})
+
 })

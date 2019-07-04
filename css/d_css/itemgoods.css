@@ -289,3 +289,240 @@
     box-sizing: border-box;
     margin-left:10px;
 }
+
+.d_imgwrap{
+    margin-top:4px;
+    width:100%;
+}
+.d_imgbox{
+    width:1200px;
+    margin:0 auto;
+}
+a.d_leftarr{
+    height:86px;
+    width:24px;
+    display:inline-block;
+    position: relative;
+    margin-right:4px;
+    float:left;
+    cursor:pointer;
+}
+.d_triangle_wrap{
+    position: absolute;
+    margin:auto;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    height:20px;
+    width:12px;
+}
+.d_triangle_left{
+    border-top:10px solid transparent;
+    border-bottom:10px solid transparent;
+    border-right:12px solid #e3e3e3;
+    position: absolute;
+}
+.d_triangle_left1{
+    position: absolute;
+    left:3px;
+    border-top:10px solid transparent;
+    border-bottom:10px solid transparent;
+    border-right:12px solid #fff;
+}
+.d_imgsmall{
+   width:475px;
+   float:left;
+   overflow: hidden;
+   height:86px;
+}
+.d_imgsmall li{
+    height:84px;
+    width:84px;
+    border:1px solid #dcdcdc;
+    float: left;
+    margin-right:4px;
+    position:relative;
+}
+.d_imgsmall .d_imgchecked{
+    border: solid 1px #e2231a;
+}
+.d_imgsmall li img{
+    height:100%;
+}
+
+a.d_rightarr{
+    height:86px;
+    width:24px;
+    display:inline-block;
+    position: relative;
+    margin-right:4px;
+    float:left;
+    cursor:pointer;
+}
+.d_triangle_right{
+    border-top:10px solid transparent;
+    border-bottom:10px solid transparent;
+    border-left:12px solid #e3e3e3;
+    position: absolute;
+}
+.d_triangle_right1{
+    position: absolute;
+    left:-3px;
+    border-top:10px solid transparent;
+    border-bottom:10px solid transparent;
+    border-left:12px solid #fff;
+}
+.d_goodsnumber{
+    width:1200px;
+    margin:0 auto;
+}
+.d_number{
+    width:530px;
+    padding-bottom:35px;
+}
+.d_number  span{
+    line-height:43px;
+    color:#a5a5a5;
+    float:left;
+}
+.d_number .d_operation{
+    float:right;
+}
+.d_collection{
+    line-height:43px;
+    font-size:12px;
+    float:left;
+}
+.d_collection:hover{
+    color:#e1140a;
+}
+.d_collection i{
+    height:12px;
+    width:12px;
+    display:inline-block;
+    padding-right:6px;
+    background: url(../../img/d_img/d_img32.png) -38px -42px no-repeat;
+}
+.d_share{
+    line-height:43px;
+    font-size:12px;
+    float:left;
+    margin-left:20px;
+}
+.d_share:hover{
+    color:#e1140a;
+}
+.d_share em{
+    height:12px;
+    width:12px;
+    padding-right:6px;
+    display:inline-block;
+    background: url(../../img/d_img/d_img32.png) -56px -42px no-repeat;
+}
+.d_gray{
+   background: #f6f7f8;
+   height:52px;
+   margin-bottom:10px;
+}
+.d_grayinner{
+    width:1200px;
+    margin:0 auto;
+    position: relative;
+}
+.d_grayinner .d_biaoti{
+    line-height:52px;
+    font-size:20px;
+    color:#4a4949;
+    float:left;
+}
+.goodsdetail_li{
+    float:right;
+}
+.goodsdetail_li li{
+    float:left;
+    line-height:52px;
+    margin-right:40px;
+}
+.goodsdetail_li li .d_colorred_default{
+    color:#e1140a;
+}
+.goodsdetail_li li a{
+    color:#000;
+    font-size:12px;
+}
+.goodsdetail_li  li:nth-of-type(2) a:hover{
+    color:#e1140a;
+}
+.goodsdetail_li  li:nth-of-type(3) a:hover{
+    color:#e1140a;
+}
+.goodsdetail_li li a.d_bgred{
+    background: #e1140a;
+    color:#fff;
+    padding:10px;
+}
+
+.d_showmsg{
+    right:0;
+    top:66px;
+    position: absolute;
+    height:81px;
+    width:211px;
+    margin-right:40px;
+    background: #fff;
+    display:none;
+    border:solid 1px #dadada;
+    z-index: 9999;
+}
+.d_toptriangle{
+    position:absolute;
+    right:38px;
+    top:-5px;
+    border-bottom:solid 4px #dadada;
+    border-left:solid 4px transparent;
+    border-right:solid 4px transparent;
+    z-index:10000;
+}
+.d_toptriangle1{
+    position:absolute;
+    right:38px;
+    top:-3px;
+    border-bottom:solid 4px #fff;
+    border-left:solid 4px transparent;
+    border-right:solid 4px transparent;
+    z-index:10000;
+}
+.d_showmsg img{
+    height:100%;
+}
+.d_showimg{
+    float:left;
+    height:81px;
+}
+.d_showwords{
+    float:left;
+    width:115px;
+    font-size:12px;
+    color:#a5a5a5;
+    line-height:16px;
+    padding:14px 11px  0 0;
+    overflow: hidden;
+}
+.d_goodsinfo{
+    overflow:hidden;
+}
+.d_goodsinfo img{
+    position:relative;
+    left:50%;
+    margin-left:-960px;
+}
+.d_lastimg {
+    overflow:hidden;
+}
+.d_lastimg  img{
+    /* display: block; */
+    position:relative;
+    left:50%;
+    margin-left:-960px;
+}
