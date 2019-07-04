@@ -1,9 +1,9 @@
 var enter=document.querySelector('.enter');
-var register=document.querySelectorAll('.register');
+var register=document.querySelector('.register');
 var tuichu=document.querySelector('.tuichu');
 var ppmask=document.querySelector('.ppmask');
 var regist=document.querySelector('.regist');
-var login=document.querySelectorAll('.login');
+var login=document.querySelector('.login');
 var regist=document.querySelector('.regist');
 var zhucedle=document.querySelector('.zhucedle');
 var adv=document.querySelector('.adv');
@@ -15,17 +15,17 @@ tuichu.onclick=function(){
     ppmask.style.display='none';
     enter.style.display="none";
 }
-for(let i=0;i<2;i++){
-register[i].onclick=function(){
+
+register.onclick=function(){
     enter.style.display="block";
     ppmask.style.display='block';
 };
 
-login[i].onclick=function(){ 
+login.onclick=function(){ 
     regist.style.display="block";
     ppmask.style.display='block';  
 }
-}
+
 
 zhucedle.onclick=function(){
     ppmask.style.display="none";
@@ -112,15 +112,7 @@ $('.submita').click(function () {
         alert("密码不一致 重新输入")
 }else{
         $.ajax({     
-<<<<<<< HEAD
         url: '../data/w_json/login.php',
-=======
-<<<<<<< HEAD
-        url: 'data/w_json/login.php',
-=======
-        url: '../data/w_json/login.php',
->>>>>>> 188f47f198ed591dff9345e7ceee283e991d6760
->>>>>>> df23f331e363bd9bee0c3cbafa391e6c3510b193
         type: 'get',
         data: "act=add&user="+user+"&pass="+pass,// login.php?act=xxx&user=用户名&pass=密码
         dataType: 'json',
@@ -151,15 +143,7 @@ $('.submita2').click(function () {
         alert("账号密码不能为空")
 }else{
     $.ajax({
-<<<<<<< HEAD
             url: '../data/w_json/login.php',
-=======
-<<<<<<< HEAD
-            url: 'data/w_json/login.php',
-=======
-            url: '../data/w_json/login.php',
->>>>>>> 188f47f198ed591dff9345e7ceee283e991d6760
->>>>>>> df23f331e363bd9bee0c3cbafa391e6c3510b193
             type: 'get',
             data: "act=login&user="+user+"&pass="+pass,
             dataType: 'json',
@@ -174,12 +158,10 @@ $('.submita2').click(function () {
                     $('.enter').css("display","none");
                 $('.ppmask').css("display","none");
 
-                for(let i=0;i<2;i++){
-                login[i].innerHTML=user
-                span11[i].style.display="none"
-                register[i].style.display="none"
-                dalibao[i].style.display="none"
-                }; 
+                
+                login.innerHTML="账号:"+user                
+                register.style.display="none"
+                
 
             }
                 

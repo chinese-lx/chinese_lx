@@ -1,0 +1,73 @@
+.wrap{
+    width: 900px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 24px;
+    padding: 14px 0;
+}
+.conTit{
+    background-color: #eee;
+    line-height: 34px;
+    position: relative;
+    height: 34px;
+}
+.conTit span{
+    line-height: 34px;
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+}
+.conTit .product{
+    width: 100px;
+    left: 100px;
+    top: 0;
+}
+.conTit .price{
+    width: 120px;
+    left: 500px;
+    top: 0;
+}
+.conTit .setting{
+    width: 100px;
+    left: 700px;
+    top: 0;
+}
+.list{
+    min-height: 80px;
+    border: 1px solid #eee;
+}
+.list li{
+    height: 80px;
+    padding: 10px;
+    border-top: 1px solid #eee;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.list li img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.list li h4{
+    width: 300px;
+    float: left;
+    padding: 10px 20px;
+}
+.list li p{
+    width: 120px;
+    float: left;
+    padding: 10px 20px;
+    margin-left: 48px;
+    text-align: center;
+    color: red;
+}
+.list li em{
+    width: 100px;
+    float: left;
+    padding: 10px 20px;
+    margin-left: 40px;
+    text-align: center;
+    color: blue;
+    cursor: pointer;
+}
