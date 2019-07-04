@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACN,MAAM,EAAE,MAAM;EACd,KAAK,EAAC,MAAM",
+"sources": ["../sass/d_oldtonew.scss"],
+"names": [],
+"file": "d_oldtonew.css"
+}

@@ -112,7 +112,11 @@ $('.submita').click(function () {
         alert("密码不一致 重新输入")
 }else{
         $.ajax({     
+<<<<<<< HEAD
         url: 'data/w_json/login.php',
+=======
+        url: '../data/w_json/login.php',
+>>>>>>> 188f47f198ed591dff9345e7ceee283e991d6760
         type: 'get',
         data: "act=add&user="+user+"&pass="+pass,// login.php?act=xxx&user=用户名&pass=密码
         dataType: 'json',
@@ -143,7 +147,11 @@ $('.submita2').click(function () {
         alert("账号密码不能为空")
 }else{
     $.ajax({
+<<<<<<< HEAD
             url: 'data/w_json/login.php',
+=======
+            url: '../data/w_json/login.php',
+>>>>>>> 188f47f198ed591dff9345e7ceee283e991d6760
             type: 'get',
             data: "act=login&user="+user+"&pass="+pass,
             dataType: 'json',

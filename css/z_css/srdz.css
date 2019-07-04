@@ -1,0 +1,419 @@
+@charset "UTF-8";
+#z_head {
+  background-color: #000;
+  min-width: 1320px;
+  height: 38px;
+}
+#z_head .z_header {
+  background-color: #000;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+#z_head .z_header ul {
+  height: 38px;
+}
+#z_head .z_header ul li {
+  margin-top: 11px;
+  float: right;
+  height: 14px;
+  border-right: 1px solid #fff;
+}
+#z_head .z_header ul li:first-child {
+  border: 0;
+  height: 38px;
+  line-height: 38px;
+  margin-top: 0;
+  padding-right: 20px;
+  background: url(../../img/z_img/maker/pic02.png) no-repeat;
+  background-position: 42px -41px;
+  position: relative;
+}
+#z_head .z_header ul li:first-child span {
+  position: absolute;
+  top: -5px;
+  right: 15px;
+  color: #fff;
+}
+#z_head .z_header ul li a {
+  color: #fff;
+  padding: 0 10px;
+}
+#z_head .z_header ul li a:hover {
+  color: red;
+}
+#z_head .z_header .z_logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#z_head .z_header .z_logo img {
+  width: 52px;
+}
+
+/* head end */
+#z_banner {
+  height: 880px;
+  background: url(../../img/z_img/srdz/banner.jpg) no-repeat center;
+  min-width: 1320px;
+  background-size: cover;
+}
+
+#z_main {
+  height: 480px;
+  background: url(../../img/z_img/srdz/main.jpg) no-repeat center;
+  min-width: 1320px;
+  background-size: cover;
+}
+#z_main ul {
+  width: 1160px;
+  margin: 0 auto;
+}
+#z_main ul li {
+  width: 287px;
+  height: 350px;
+  float: right;
+}
+#z_main ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#z_content1 {
+  height: 734px;
+  background: url(../../img/z_img/srdz/content1.jpg) no-repeat center;
+  min-width: 1320px;
+  background-size: cover;
+  overflow: hidden;
+}
+#z_content1 .content1 {
+  width: 1200px;
+  height: 734px;
+  margin: 0 auto;
+}
+#z_content1 .content1 .content1_buy {
+  width: 340px;
+  height: 580px;
+  margin-top: 80px;
+  margin-left: 720px;
+}
+#z_content1 .content1 .content1_buy a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+#z_products1 {
+  min-width: 1320px;
+  background-color: #eef7fc;
+}
+#z_products1 .computer1 {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#z_products1 .computer1 ul {
+  margin-top: 57px;
+  margin-left: 72px;
+  padding-bottom: 7px;
+}
+#z_products1 .computer1 ul li {
+  width: 182px;
+  height: 376px;
+  float: left;
+  background-color: #fff;
+  margin-right: 7px;
+  padding: 12px;
+}
+#z_products1 .computer1 ul li .tips {
+  text-align: center;
+  margin-top: 12px;
+  height: 28px;
+}
+#z_products1 .computer1 ul li .tips span {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px dashed red;
+  color: red;
+  font-weight: bold;
+}
+#z_products1 .computer1 ul li a {
+  margin-top: 10px;
+  display: block;
+}
+#z_products1 .computer1 ul li a .list_img {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+}
+#z_products1 .computer1 ul li a .list_img img {
+  width: 100%;
+  height: 100%;
+}
+#z_products1 .computer1 ul li a .name {
+  margin-top: 30px;
+  height: 37px;
+  font-weight: bold;
+  width: 100%;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-bottom: 1px dashed #dadada;
+}
+#z_products1 .computer1 ul li a .title {
+  color: #959595;
+  height: 32px;
+  margin-top: 9px;
+  /*多行文本出现省略号*/
+  width: 100%;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+#z_products1 .computer1 ul li a .price {
+  margin-top: 17px;
+  color: #E1140A;
+  line-height: 21px;
+  height: 21px;
+}
+#z_products1 .computer1 ul li a .price span {
+  float: left;
+  display: block;
+  height: 100%;
+  line-height: 26px;
+}
+#z_products1 .computer1 ul li a .price b {
+  float: left;
+  font-size: 18px;
+}
+#z_products1 .computer1 ul li a .price i {
+  float: right;
+  color: #fff;
+  background-color: #E1140A;
+  padding: 3px 7px;
+}
+
+#z_content2 {
+  height: 734px;
+  background: url(../../img/z_img/srdz/content2.jpg) no-repeat center;
+  min-width: 1320px;
+  background-size: cover;
+  overflow: hidden;
+}
+#z_content2 .content2 {
+  width: 1200px;
+  height: 734px;
+  margin: 0 auto;
+}
+#z_content2 .content2 .content2_buy {
+  width: 340px;
+  height: 580px;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+#z_content2 .content2 .content2_buy a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+#z_products2 {
+  min-width: 1320px;
+  background-color: #ebf3db;
+}
+#z_products2 .computer2 {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#z_products2 .computer2 ul {
+  margin-top: 57px;
+  margin-left: 72px;
+  padding-bottom: 42px;
+}
+#z_products2 .computer2 ul li {
+  width: 182px;
+  height: 376px;
+  float: left;
+  background-color: #fff;
+  margin-right: 7px;
+  padding: 12px;
+}
+#z_products2 .computer2 ul li .tips {
+  text-align: center;
+  margin-top: 12px;
+  height: 28px;
+}
+#z_products2 .computer2 ul li .tips span {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px dashed red;
+  color: red;
+  font-weight: bold;
+}
+#z_products2 .computer2 ul li a {
+  margin-top: 10px;
+  display: block;
+}
+#z_products2 .computer2 ul li a .list_img {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+}
+#z_products2 .computer2 ul li a .list_img img {
+  width: 100%;
+  height: 100%;
+}
+#z_products2 .computer2 ul li a .name {
+  margin-top: 30px;
+  height: 37px;
+  font-weight: bold;
+  width: 100%;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-bottom: 1px dashed #dadada;
+}
+#z_products2 .computer2 ul li a .title {
+  color: #959595;
+  height: 32px;
+  margin-top: 9px;
+  /*多行文本出现省略号*/
+  width: 100%;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+#z_products2 .computer2 ul li a .price {
+  margin-top: 17px;
+  color: #E1140A;
+  line-height: 21px;
+  height: 21px;
+}
+#z_products2 .computer2 ul li a .price span {
+  float: left;
+  display: block;
+  height: 100%;
+  line-height: 26px;
+}
+#z_products2 .computer2 ul li a .price b {
+  float: left;
+  font-size: 18px;
+}
+#z_products2 .computer2 ul li a .price i {
+  float: right;
+  color: #fff;
+  background-color: #E1140A;
+  padding: 3px 7px;
+}
+
+#z_foot {
+  height: 239px;
+  background: url(../../img/z_img/srdz/foot.jpg) no-repeat center;
+  min-width: 1320px;
+  background-size: cover;
+}
+
+#z_more {
+  height: 130px;
+  background: url(../../img/z_img/srdz/more.jpg) no-repeat center;
+  min-width: 1320px;
+  background-size: cover;
+}
+
+#z_products_more {
+  min-width: 1320px;
+  background-color: #ebebeb;
+}
+#z_products_more .products_more {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#z_products_more .products_more ul {
+  margin-top: 57px;
+  margin-left: 72px;
+  padding-bottom: 120px;
+}
+#z_products_more .products_more ul li {
+  width: 182px;
+  height: 376px;
+  float: left;
+  background-color: #fff;
+  margin-right: 7px;
+  padding: 12px;
+}
+#z_products_more .products_more ul li .tips {
+  text-align: center;
+  margin-top: 12px;
+  height: 28px;
+}
+#z_products_more .products_more ul li .tips span {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px dashed red;
+  color: red;
+  font-weight: bold;
+}
+#z_products_more .products_more ul li a {
+  margin-top: 10px;
+  display: block;
+}
+#z_products_more .products_more ul li a .list_img {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+}
+#z_products_more .products_more ul li a .list_img img {
+  width: 100%;
+  height: 100%;
+}
+#z_products_more .products_more ul li a .name {
+  margin-top: 30px;
+  height: 37px;
+  font-weight: bold;
+  width: 100%;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-bottom: 1px dashed #dadada;
+}
+#z_products_more .products_more ul li a .title {
+  color: #959595;
+  height: 32px;
+  margin-top: 9px;
+  /*多行文本出现省略号*/
+  width: 100%;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+#z_products_more .products_more ul li a .price {
+  margin-top: 17px;
+  color: #E1140A;
+  line-height: 21px;
+  height: 21px;
+}
+#z_products_more .products_more ul li a .price span {
+  float: left;
+  display: block;
+  height: 100%;
+  line-height: 26px;
+}
+#z_products_more .products_more ul li a .price b {
+  float: left;
+  font-size: 18px;
+}
+#z_products_more .products_more ul li a .price i {
+  float: right;
+  color: #fff;
+  background-color: #E1140A;
+  padding: 3px 7px;
+}

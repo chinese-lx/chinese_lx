@@ -18,7 +18,10 @@ var gun =function removeUnScroll() {
     $(document).unbind("scroll.unable");
 }
 
+<<<<<<< HEAD
 console.log(r_t)
+=======
+>>>>>>> 188f47f198ed591dff9345e7ceee283e991d6760
 for(let i = 0;i<r_t.length;i++){
     r_li[i].onmouseover = function(){
     console.log(12)
@@ -29,7 +32,10 @@ r_li[i].onmouseout = function(){
     animate(r_t[i],{opacity:0},10);
 }
 }
+<<<<<<< HEAD
 console.log(c_r[0].style)
+=======
+>>>>>>> 188f47f198ed591dff9345e7ceee283e991d6760
 
 window.onmousewheel = function(){
     if(document.documentElement.scrollTop>300){
@@ -71,7 +77,10 @@ window.onmousewheel = function(){
 var sous2 =document.getElementById("sous2")
 
 var c_stop =document.getElementById("c_stop")
+<<<<<<< HEAD
 console.log(sous2)
+=======
+>>>>>>> 188f47f198ed591dff9345e7ceee283e991d6760
 sous2.onclick = function(){
 
     $("#c_ssk").css("display","block")

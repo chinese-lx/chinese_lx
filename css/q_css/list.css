@@ -1,0 +1,135 @@
+body{
+    background: #260202;
+}
+.q-banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.goods_20180920 {
+    width: 1056px;
+    margin: 0 auto;
+    min-height: 395px;
+}
+
+.goods_20180920 .lis {
+    float: left;
+    background: #fff;
+    width: 257px;
+    height: 425px;
+    margin-top: 7px;
+    box-sizing: border-box;
+    padding: 12px 12px 20px 12px;
+    position: relative;
+    margin-right: 7px;
+}
+
+.goods_20180920 .lis img {
+    width: 100%;
+    height: 100%;
+}
+
+.goods_20180920 .lis .box_img {
+    width: 233px;
+    height: 233px;
+    margin: 0 auto
+}
+
+.goods_20180920 .lis .tips {
+    width: 100%;
+    height: 22px;
+    font-size: 12px;
+    text-align: center;
+    padding: 0 3px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center
+}
+
+.goods_20180920 .lis .tips>span {
+    color: #E1140A;
+    border: 1px dotted #D0021B;
+    line-height: 20px;
+    padding: 0 9px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.goods_20180920 .lis>a {
+    display: block;
+}
+
+.goods_20180920 .lis .names {
+    font-size: 13px;
+    width: 100%;
+    color: #3B3B3B;
+    height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 30px;
+    color: #000;
+    font-weight: 600;
+    width: 100%;
+}
+
+.goods_20180920 .lis .titile {
+    font-size: 12px;
+    color: #959595;
+    height: 48px;
+    width: 215px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding-top: 14px;
+    border-top: 1px dotted #DADADA;
+    box-sizing: border-box;
+    width: 100%;
+    white-space: normal;
+    word-break: break-all;
+    margin-top: 5px;
+}
+
+.goods_20180920 .lis .price_box {
+    font-size: 18px;
+    color: #E1140A;
+    margin-top: 10px;
+}
+
+.goods_20180920 .uls {
+    overflow: hidden;
+    padding-bottom: 7px;
+}
+
+.goods_20180920 .lis .price_box .buy {
+    display: inline-block;
+    height: 25px;
+    float: right;
+    background: #E1140A;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1.2px;
+    padding: 0 7px;
+}
+
+.lianjie{
+    height: 169px;
+    width: 100%;
+    text-align: center;
+}
+
+.lianjie_01 a{
+    color: #fde4ab;
+    font-size: 44px;
+    border: 1px solid #d46261;
+    background: #860907;
+    padding: 20px 30px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 20px 20px;
+    text-decoration: underline;
+}
+
