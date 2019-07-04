@@ -37,16 +37,19 @@
     color: #757575;
     background: #272727;
 }
-.login{
+.login-2{
     float: right;
     margin-right: 46px;
 }
-.login a{
+.login-2 .register{
     font-size: 18px;
     color:#ffffff;
     line-height: 73px; 
 }
-.login .registered{
+.login-2 .login{
+    font-size: 18px;
+    color:#ffffff;
+    line-height: 73px; 
     border-left: 1px solid #ffffff;
 }
 /******head end******/
