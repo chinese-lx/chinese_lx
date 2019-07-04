@@ -18,7 +18,6 @@ var gun =function removeUnScroll() {
     $(document).unbind("scroll.unable");
 }
 
-
 for(let i = 0;i<r_t.length;i++){
     r_li[i].onmouseover = function(){
     console.log(12)
