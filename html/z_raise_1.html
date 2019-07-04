@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/z_css/raise_1.css"/>
     <link type="text/css" rel="stylesheet" href="../css/z_css/11.css" />
     <link rel="stylesheet" href="../css/d_css/exchange_footer.css">
+    <link rel="stylesheet" href="../layui/css/layui.css">
 </head>
 <body>
     <div id="z_breadcrumb">
@@ -17,32 +18,32 @@
             <li><a href="#">&gt; 联想众筹</a></li>
         </ul>
     </div>
-    <h1 id="z_title">联想小新智能语音鼠标众筹</h1>
+    <h1 id="z_title"></h1>
     <div id="z_container" class="clearfix">
         <div class="contaniner_img fl">
             <img src="../img/z_img/raise_1/banner.jpg" alt="">
         </div>
         <div class="contaniner_raise">
             <dl>
-                <dt class="targetMoney">￥19900</dt>
+                <dt class="targetMoney"></dt>
                 <dd>目标金额</dd>
             </dl>
             <dl>
-                <dt class="person">261</dt>
+                <dt class="person"></dt>
                 <dd>支持人数</dd>
             </dl>
             <dl>
-                <dt class="lastDays">2</dt>
+                <dt class="lastDays"></dt>
                 <dd>剩余天数</dd>
             </dl>
             <p class="border"></p>
             <div class="raise_mid clearfix">
                 <p class="fl">
-                    <span class="progress">267.0%</span>
+                    <span class="progress"></span>
                     <i>进度</i>
                 </p>
                 <p class="fl">
-                    <span class="raiseMoney">￥53133</span>
+                    <span class="raiseMoney"></span>
                     <i>已投金额</i>
                 </p>
             </div>
@@ -62,13 +63,13 @@
                 <li>评论</li>
                 <li>参与者</li>
             </ul>
-            <div class="pro_intro" style="display: none">
-                <div>
+            <div class="pro_intro" style="display: block">
+                <p>
                     <img src="../img/z_img/raise_1/details1.jpg" alt="">
                     <img src="../img/z_img/raise_1/details2.jpg" alt="">
                     <img src="../img/z_img/raise_1/details3.jpg" alt="">
                     <img src="../img/z_img/raise_1/details4.jpg" alt="">
-                </div>   
+                </p>   
             </div>
             <div class="pro_comments" style="display: none">
                 <div class="publish clearfix">
@@ -120,95 +121,97 @@
                     </dl>
                 </div>
             </div>
-            <div class="participants">
-                <dl>
-                    <dt>￥199</dt>
-                    <dd>
-                        <i>13***27</i>
-                        <span>2019-06-19 11:50:27</span>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>￥199</dt>
-                    <dd>
-                        <i>13***27</i>
-                        <span>2019-06-19 11:50:27</span>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>￥199</dt>
-                    <dd>
-                        <i>13***27</i>
-                        <span>2019-06-19 11:50:27</span>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>￥199</dt>
-                    <dd>
-                        <i>13***27</i>
-                        <span>2019-06-19 11:50:27</span>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>￥199</dt>
-                    <dd>
-                        <i>13***27</i>
-                        <span>2019-06-19 11:50:27</span>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>￥199</dt>
-                    <dd>
-                        <i>13***27</i>
-                        <span>2019-06-19 11:50:27</span>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>￥199</dt>
-                    <dd>
-                        <i>13***27</i>
-                        <span>2019-06-19 11:50:27</span>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>￥199</dt>
-                    <dd>
-                        <i>13***27</i>
-                        <span>2019-06-19 11:50:27</span>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>￥199</dt>
-                    <dd>
-                        <i>13***27</i>
-                        <span>2019-06-19 11:50:27</span>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>￥199</dt>
-                    <dd>
-                        <i>13***27</i>
-                        <span>2019-06-19 11:50:27</span>
-                    </dd>
-                </dl>
-            </div>
-            <div id="paging1" class="page light-theme simple-pagination">
-                <ul>
-                    <li class="active"><span class="current prev">上一页</span></li>
-                    <li class="active"><span class="current">1</span></li>
-                    <li><a href="#page-2" class="page-link">2</a></li>
-                    <li><a href="#page-3" class="page-link">3</a></li>
-                    <li><a href="#page-4" class="page-link">4</a></li>
-                    <li><a href="#page-5" class="page-link">5</a></li>
-                    <li class="disabled"><span class="ellipse">…</span></li>
-                    <li><a href="#page-9" class="page-link">9</a></li>
-                    <li><a href="#page-10" class="page-link">10</a></li>
-                    <li><a href="#page-2" class="page-link next">下一页</a></li>
-                </ul>
+            <div class="participants" style="display: none">
+                <div class="p_infor">
+                    <!-- <dl>
+                        <dt>￥199</dt>
+                        <dd>
+                            <i>13***27</i>
+                            <span>2019-06-19 11:50:27</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>￥199</dt>
+                        <dd>
+                            <i>13***27</i>
+                            <span>2019-06-19 11:50:27</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>￥199</dt>
+                        <dd>
+                            <i>13***27</i>
+                            <span>2019-06-19 11:50:27</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>￥199</dt>
+                        <dd>
+                            <i>13***27</i>
+                            <span>2019-06-19 11:50:27</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>￥199</dt>
+                        <dd>
+                            <i>13***27</i>
+                            <span>2019-06-19 11:50:27</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>￥199</dt>
+                        <dd>
+                            <i>13***27</i>
+                            <span>2019-06-19 11:50:27</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>￥199</dt>
+                        <dd>
+                            <i>13***27</i>
+                            <span>2019-06-19 11:50:27</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>￥199</dt>
+                        <dd>
+                            <i>13***27</i>
+                            <span>2019-06-19 11:50:27</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>￥199</dt>
+                        <dd>
+                            <i>13***27</i>
+                            <span>2019-06-19 11:50:27</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>￥199</dt>
+                        <dd>
+                            <i>13***27</i>
+                            <span>2019-06-19 11:50:27</span>
+                        </dd>
+                    </dl> -->
+                </div>
+                
+                <div class="z_pages">
+                   
+                </div>
             </div>
         </div>
         <div class="details_r fr">
-
+            <div class="oriPrice">原价 : <span>￥299</span></div>
+            <div class="supports">
+                <a href="#">支持<span>￥199</span></a>
+            </div>
+            <div class="buyCounts">
+                购买数量：<input type="text" value="1" ><span>每人限购50个</span>
+            </div>
+            <div class="limitPerson">
+                限额<span>100</span>名 | 支持者<span></span>名
+            </div>
+            <div class="proDetails"></div>
         </div>
 
     </div>
@@ -379,30 +382,7 @@
         </div>
     </div>
     <script src="../js/jquery-1.8.3.js"></script>
-    <script type="text/javascript" src="../js/z_js/11.js"></script>
     <script src="../js/z_js/z_raise_1.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            $("#paging1").pagination({
-                items: 100,
-                itemsOnPage: 10,
-                cssStyle: 'light-theme'
-            });
-        });
-        $(function () {
-            $("#paging2").pagination({
-                items: 100,
-                itemsOnPage: 10,
-                cssStyle: 'dark-theme'
-            });
-        });
-        $(function () {
-            $("#paging3").pagination({
-                items: 100,
-                itemsOnPage: 10,
-                cssStyle: 'compact-theme'
-            });
-        });
-    </script>
+    <script src="../layui/layui.js"></script>
 </body>
 </html>

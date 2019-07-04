@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #z_breadcrumb {
   width: 1200px;
   margin: 0 auto;
@@ -100,10 +101,10 @@
 #z_details .details_l .pro_intro {
   text-align: center;
 }
-#z_details .details_l .pro_intro div {
+#z_details .details_l .pro_intro p {
   margin: 34px auto;
 }
-#z_details .details_l .pro_intro div img {
+#z_details .details_l .pro_intro p img {
   width: 750px;
 }
 #z_details .details_l .pro_comments .publish {
@@ -162,7 +163,7 @@
   padding-left: 50px;
   height: 60px;
 }
-#z_details .details_l .participants dl {
+#z_details .details_l .participants .p_infor dl {
   width: 688px;
   height: 40px;
   line-height: 40px;
@@ -171,26 +172,90 @@
   overflow: hidden;
   border-bottom: 1px solid #dedede;
 }
-#z_details .details_l .participants dl dt {
+#z_details .details_l .participants .p_infor dl dt {
   float: left;
   font-size: 26px;
   color: #e2231a;
   width: 177px;
 }
-#z_details .details_l .participants dl dd {
+#z_details .details_l .participants .p_infor dl dd {
   float: left;
   height: 40px;
   line-height: 40px;
 }
-#z_details .details_l .participants dl dd i {
+#z_details .details_l .participants .p_infor dl dd i {
   font-size: 18px;
   padding-left: 10px;
 }
-#z_details .details_l .participants dl dd span {
+#z_details .details_l .participants .p_infor dl dd span {
   padding-left: 10px;
   color: #aeaeae;
+}
+#z_details .details_l .participants .z_pages {
+  text-align: center;
+  padding: 20px 0;
+}
+#z_details .details_l .participants .z_pages #layui-laypage-1 a {
+  border: 0;
+  padding: 0 5px;
+}
+#z_details .details_l .participants .z_pages #layui-laypage-1 span {
+  border: 0;
+  padding: 0 5px;
+}
+#z_details .details_l .participants .z_pages #layui-laypage-1 .layui-laypage-curr em {
+  background: #fff;
+  color: red;
 }
 #z_details .details_r {
   width: 348px;
   border: 1px solid #dedede;
 }
+#z_details .details_r .oriPrice {
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+#z_details .details_r .supports {
+  height: 54px;
+  text-align: center;
+}
+#z_details .details_r .supports a {
+  display: inline-block;
+  height: 54px;
+  line-height: 54px;
+  width: 256px;
+  background-color: #e2231a;
+  border-radius: 27px;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+}
+#z_details .details_r .buyCounts {
+  text-align: center;
+  margin: 15px 0 26px 0;
+}
+#z_details .details_r .buyCounts input {
+  width: 22px;
+  border: 1px solid #a9a9a9;
+}
+#z_details .details_r .buyCounts span {
+  color: #e2231a;
+}
+#z_details .details_r .limitPerson {
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+}
+#z_details .details_r .limitPerson span {
+  color: #e2231a;
+}
+#z_details .details_r .proDetails {
+  margin: 20px 28px 74px;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+/*清除input[type=number]的默认样式*/
