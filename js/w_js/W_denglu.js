@@ -1,43 +1,20 @@
 var enter=document.querySelector('.enter');
-<<<<<<< HEAD
-var register=document.querySelector('.register');
-var tuichu=document.querySelector('.tuichu');
-var ppmask=document.querySelector('.ppmask');
-var regist=document.querySelector('.regist');
-var login=document.querySelector('.login');
-=======
 var register=document.querySelectorAll('.register');
 var tuichu=document.querySelector('.tuichu');
 var ppmask=document.querySelector('.ppmask');
 var regist=document.querySelector('.regist');
 var login=document.querySelectorAll('.login');
->>>>>>> 02220411e26645935d16e5b60d66f6ec422175e0
 var regist=document.querySelector('.regist');
 var zhucedle=document.querySelector('.zhucedle');
 var adv=document.querySelector('.adv');
 var zhuce2=document.querySelector('.zhuce2');
-<<<<<<< HEAD
-register.onclick=function(){
-    enter.style.display="block";
-    ppmask.style.display='block';
-};
-=======
 var span11 = document.querySelectorAll(".span11")
 var dalibao = document.querySelectorAll(".dalibao")
 
->>>>>>> 02220411e26645935d16e5b60d66f6ec422175e0
 tuichu.onclick=function(){
     ppmask.style.display='none';
     enter.style.display="none";
 }
-<<<<<<< HEAD
-login.onclick=function(){ 
-    regist.style.display="block";
-    ppmask.style.display='block';
-
-    
-}
-=======
 for(let i=0;i<2;i++){
 register[i].onclick=function(){
     enter.style.display="block";
@@ -50,7 +27,6 @@ login[i].onclick=function(){
 }
 }
 
->>>>>>> 02220411e26645935d16e5b60d66f6ec422175e0
 zhucedle.onclick=function(){
     ppmask.style.display="none";
     regist.style.display="none";
@@ -122,11 +98,7 @@ $("#passw").blur(function(){
 
     
 
-<<<<<<< HEAD
-
-=======
 // <--注册-->
->>>>>>> 02220411e26645935d16e5b60d66f6ec422175e0
 $('.submita').click(function () {  
     var user = $("#usname").val()
     var pass = $("#password").val()
@@ -140,29 +112,12 @@ $('.submita').click(function () {
         alert("密码不一致 重新输入")
 }else{
         $.ajax({     
-<<<<<<< HEAD
-        url: '../data/w_json/login.php',
-=======
         url: 'data/w_json/login.php',
->>>>>>> 02220411e26645935d16e5b60d66f6ec422175e0
         type: 'get',
         data: "act=add&user="+user+"&pass="+pass,// login.php?act=xxx&user=用户名&pass=密码
         dataType: 'json',
         cache: false,
         success: function (json){
-<<<<<<< HEAD
-            alert(json.msg);
-            if(json.err==1){
-            $('.enter').css("display","none");
-            $('.ppmask').css("display","none");     
-            }else{
-                $('.enter').css("display","block");
-            $('.ppmask').css("display","block"); 
-        }
-        },
-        error: function (err) {
-            alert(err);
-=======
             console.log(json)
             console.log(json.msg);
             if(json.err==1){
@@ -175,16 +130,12 @@ $('.submita').click(function () {
         },
         error: function (err) {
             console.log(err)
->>>>>>> 02220411e26645935d16e5b60d66f6ec422175e0
         } 
     });
         }
 })
 
-<<<<<<< HEAD
-=======
 // <--登陆-->
->>>>>>> 02220411e26645935d16e5b60d66f6ec422175e0
 $('.submita2').click(function () {
     var user = $(".phvl").val()
     var pass = $(".pwvl").val()
@@ -192,11 +143,7 @@ $('.submita2').click(function () {
         alert("账号密码不能为空")
 }else{
     $.ajax({
-<<<<<<< HEAD
-            url: '../data/w_json/login.php',
-=======
             url: 'data/w_json/login.php',
->>>>>>> 02220411e26645935d16e5b60d66f6ec422175e0
             type: 'get',
             data: "act=login&user="+user+"&pass="+pass,
             dataType: 'json',
@@ -206,12 +153,6 @@ $('.submita2').click(function () {
                 alert(json.msg); 
                 if(json.err==1){
                     $('.enter').css("display","block");
-<<<<<<< HEAD
-                $('.ppmask').css("display","block");     
-                }else{
-                    $('.enter').css("display","none");
-                $('.ppmask').css("display","none"); 
-=======
                     $('.ppmask').css("display","block");     
                 }else{
                     $('.enter').css("display","none");
@@ -224,7 +165,6 @@ $('.submita2').click(function () {
                 dalibao[i].style.display="none"
                 }; 
 
->>>>>>> 02220411e26645935d16e5b60d66f6ec422175e0
             }
                 
                            

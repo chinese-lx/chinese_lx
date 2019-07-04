@@ -40,23 +40,6 @@ header ul li a{
     float: right;
     line-height: 50px
 }
-<<<<<<< HEAD
-header>div>div a:nth-of-type(1){
-    margin-right:40px;
-    font-size: 12px;
-    
-}
-header>div>div p{
-    position: absolute;
-    display: inline-block;
-    right: 36px;
-    color: #e1e1e1;
-}
-header>div>div a:nth-of-type(2){
-    position: absolute;
-    
-    right: 10px;
-=======
 #dl{
     float: right;
     margin-right: 13px;
@@ -67,7 +50,6 @@ header>div>div a:nth-of-type(2){
     position: absolute;
     top: 35px;
     right: 15px;
->>>>>>> 02220411e26645935d16e5b60d66f6ec422175e0
 }
 
 
