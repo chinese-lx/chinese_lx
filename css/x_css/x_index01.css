@@ -1,0 +1,380 @@
+.banner{
+    width:1200px;
+    height:455px;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.box{
+    position:relative;
+}
+.box img{
+    width:1200px;
+    height:455px
+}
+.box li{
+    position:absolute;
+    top:0;
+    left:0; 
+}
+.uu{
+    position: absolute;
+    right:575px;
+    bottom: 20px;
+    width:35px
+}
+.uu li{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background:#cfced2;
+    display: inline-block;
+    margin-left:5px;
+    cursor: default;
+    text-align: center;
+}
+.uu li.current{
+    background: red
+}
+/******** x_banner end*****/
+.x_nav{
+    width: 1200px;
+    height: 1033px;
+    margin: 0 auto;
+    background: #e5e5e5;
+}
+.x_hot-cell.clearfix:after{
+    content: "-";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 1px;
+}
+.x_hot-cell .x_hot-pro{
+    padding-top: 68px;
+    font-size: 24px;
+    color: #000000;
+    float: left;
+}
+.x_hot-cell .x_hot-com{
+    padding-top: 72px;
+    font-size: 18px;
+    color: #e60012;
+    float: right;
+    border-bottom: 2px solid #e60012;
+    padding-bottom: 10px; 
+}
+.x_img{
+    padding-top: 30px;
+    width: 890px;
+    height: 398px;
+    float: left;
+    overflow: hidden;
+}
+.x_img img{
+    width: 100%;
+    height: 100%;
+    
+}
+.x_goodsone{
+    width: 289px;
+    height: 398px; 
+    padding-top: 30px;
+    float: left;
+    margin-left: 20px;
+}
+.x_goodsone img{
+    width: 289px;
+    height: 223px; 
+}
+.x_goodsone h3{
+    padding: 20px 28px;
+    font-size: 16px;
+    color: #3a3d3f;
+}
+.x_goodsone h5{
+    padding: 0 28px;
+    font-size: 14px;
+    color: #3a3d70;
+}
+.x_goodsone p{
+    padding: 20px 28px;
+    font-size: 16px;
+    color: #e03531;
+}
+.x_goods{
+    position: relative;
+    display: block;
+    opacity: 1;
+    width: 284px;
+    height: 401px;
+    padding-top: 24px;
+    float: left;
+    margin-right: 20px;
+}
+.x_goods img{
+    width: 284px;
+    height: 223px; 
+}
+.x_goods h3{
+    padding: 23px 26px 17px;
+    font-size: 16px;
+    color: #3a3d3f;
+}
+.x_goods h5{
+    padding: 0 28px;
+    font-size: 14px;
+    color: #3a3d70;
+}
+.x_goods p{
+    padding: 20px 26px;
+    font-size: 16px;
+    color: #e03531;
+}
+.x_goodstwo{
+    width: 284px;
+    height: 401px;
+    padding-top: 24px;
+    float: left;
+    margin-right: 0px;
+}
+.x_goodstwo img{
+    width: 284px;
+    height: 223px; 
+}
+.x_goodstwo h3{
+    padding: 23px 26px 17px;
+    font-size: 16px;
+    color: #3a3d3f;
+}
+.x_goodstwo h5{
+    padding: 0 28px;
+    font-size: 14px;
+    color: #3a3d70;
+}
+.x_goodstwo p{
+    padding: 20px 26px;
+    font-size: 16px;
+    color: #e03531;
+}
+/*******x_nav*****/
+
+.x_group{
+    width:1200px;
+    height: 962px;
+    margin: 0 auto;
+    background: #ecfbef;
+   
+}
+.x_group .clearfix:after{
+    content: "-";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 1px;
+}
+.x_group-banner{
+    padding-top: 30px;
+}
+.x_group-banner img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.x_inter{
+    position: relative;
+    display: block;
+    opacity: 1;
+    width: 285px;
+    height: 399px;
+    float: left;
+    padding: 24px 6px 0 9px;
+}
+.x_inter img{
+    width: 285px;
+    height: 222px;
+}
+.x_inter h3{
+    padding: 22px 32px 18px 26px;
+    font-size: 16px;
+    color: #3a3d3f;
+}
+.x_inter h5{
+    padding: 0 32px 20px 26px;
+    font-size: 14px;
+    color: #3a3d3f;
+}
+.x_inter p{
+    font-size: 16px;
+    color: #e03531;
+    text-align: center;    
+}
+/********x_group end******/
+
+.x_min{
+    width:1200px;
+    height: 842px;
+    margin: 0 auto;
+    background: #e1e6f9;
+   
+}
+.x_min .clearfix:after{
+    content: "-";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 1px;
+}
+.x_adapter{
+    padding-top: 30px;
+    width: 283px;
+    
+}
+.x_adapter img{
+    float: left;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.x_minsmall{
+    width: 283px;
+    height: 346px;
+    margin-left: 20px;
+    float: left;
+}
+.x_minsmall img{
+    width: 283px;
+    height: 219px;
+}
+.x_minsmall h3{
+    font-size: 16px;
+    color: #3a3d3f;
+    padding: 22px 0 8px 0;
+    text-align: center;
+}
+.x_minsmall h4{
+    text-align: center;
+    font-size: 16px;
+    color: #3a3d3f;
+}
+.x_minsmall p{
+    padding: 17px 0;
+    font-size: 16px;
+    color: #e03531;
+    text-align: center; 
+}
+.x_purchase{
+    width:1200px;
+    margin: 0 auto;
+    background: #e1e6f9;
+    padding: 92px 0;
+}
+.x_guid{
+    width: 302px;
+    height: 56px;
+    margin-left: 270px;
+    line-height: 56px;
+    text-align: center;
+    font-size: 18px;
+    color: #656565;
+    border: 1px solid #e1e6f9;
+    background: #f4f4f4;
+    border-radius: 28px 28px;
+    float: left;
+}
+.x_return{
+    width: 302px;
+    height: 56px;
+    margin-left: 62px;
+    line-height: 56px;
+    text-align: center;
+    font-size: 18px;
+    color: #656565;
+    border: 1px solid #e1e6f9;
+    background: #f4f4f4;
+    border-radius: 28px 28px;
+    float: left;
+}
+
+
+.x_one{
+    position: absolute;
+    left: 0;
+    height: 0;;
+    display: none;
+    opacity: 0; 
+    width: 188px;
+    height: 358px;
+    padding: 45px 48px  69px  ;
+    background: #0080b9;     
+}
+.x_one h3{
+    padding: 0 36px ;
+    font-size: 20px;
+    color: #ffffff;
+}
+.x_one h5{
+    padding-left: 36px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ffffff;    
+}
+.x_one p{
+    padding: 38px 40px;
+    font-size: 16px;
+    color: #ffffff; 
+}
+.x_one span{
+    padding: 14px 58px;
+    margin-top: 40px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 21px 21px;
+}
+.x_two{
+    position: absolute;
+    left: 0;
+    height: 0;;
+    display: none;
+    opacity: 0; 
+    width: 188px;
+    height: 358px;
+    padding: 70px 40px 70px 50px ;
+    background: #3aa773;     
+}
+.x_two h3{
+    font-size: 20px;
+    color: #ffffff;
+}
+.x_two h5{
+    padding: 24px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.x_two p{
+    padding: 8px ;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #ffffff; 
+}
+.x_two span{
+    padding: 14px 58px;
+    margin-top: 40px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 21px 21px;
+}
+
+
+
+
+
+
