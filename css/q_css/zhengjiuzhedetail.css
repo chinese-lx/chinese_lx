@@ -1515,11 +1515,14 @@ dd.city_tab_title_country span {
   width: 20px;
   height: 30px;
   background-repeat: no-repeat;
+  font-size: 30px;
+  color: #6E6C67;
 }
 
 #detail_playPicture a.left-button {
   left: 0;
   background-position: -8px -8px;
+  color: #6E6C67;
 }
 
 #detail_playPicture a.right-button {
@@ -1553,6 +1556,10 @@ dd.city_tab_title_country span {
   margin-left: 10px;
   border: 1px solid #eeeeee;
   cursor: pointer;
+}
+
+#detail_playPicture #detail_playPicture_list ul li img:hover {
+  border: 1px solid red;
 }
 
 #detail_playPicture #detail_playPicture_list ul li{

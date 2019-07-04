@@ -115,3 +115,21 @@ body{
     padding: 0 7px;
 }
 
+.lianjie{
+    height: 169px;
+    width: 100%;
+    text-align: center;
+}
+
+.lianjie_01 a{
+    color: #fde4ab;
+    font-size: 44px;
+    border: 1px solid #d46261;
+    background: #860907;
+    padding: 20px 30px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 20px 20px;
+    text-decoration: underline;
+}
+

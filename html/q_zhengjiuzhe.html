@@ -16,6 +16,7 @@
 
     <link rel="stylesheet" href="../css/c_css/c_index.css">
     <link rel="stylesheet" href="../css/d_css/exchange_footer.css">
+    <link rel="stylesheet" href="../font/q_font/iconfont.css">
 </head>
 
 
@@ -197,62 +198,32 @@
 
                 <img id="winpic" src="../img/q_img/g-01 (51).jpg" class="pic">
                 <div class="play-picture" id="detail_playPicture" style="display: block;">
-                    <!-- <a class="left-button" id="play_picture_leftbtn" disable="disable" style="opacity: 0.3;"></a>
-                    <a class="right-button" id="play_picture_rightbtn" style="opacity: 1;"></a> -->
+                    <!-- <a class="left-button iconfont" id="play_picture_leftbtn" disable="disable" style="opacity: 0.3;">&#xe600;</a>
+                    <a class="right-button iconfont" id="play_picture_rightbtn" style="opacity: 1;">&#xe601;</a> -->
                     <div class="list" id="detail_playPicture_list">
                         <ul>
                             <li class="checked" id="p1">
                                 <img src="../img/q_img/g-01 (52).jpg" alt="拯救者 Y7000 15.6英寸游戏笔记本 ">
                             </li>
-                            <li id="p2">
+                            <li class="checked" id="p2">
                                 <img src="../img/q_img/g-01 (38).jpg" alt="拯救者 Y7000 15.6英寸游戏笔记本 ">
                             </li>
-                            <li id="p3">
+                            <li  class="checked" id="p3">
                                 <img src="../img/q_img/g-01 (45).jpg" alt="拯救者 Y7000 15.6英寸游戏笔记本 ">
                             </li>
-                            <li id="p4">
+                            <li class="checked" id="p4">
                                 <img src="../img/q_img/g-01 (28).jpg" alt="拯救者 Y7000 15.6英寸游戏笔记本 ">
                             </li>
-                            <li id="p5">
+                            <li class="checked" id="p5">
                                 <img src="../img/q_img/g-01 (40).jpg" alt="拯救者 Y7000 15.6英寸游戏笔记本 ">
                             </li>
-                            <li id="p6">
+                            <li class="checked" id="p6">
                                 <img src="../img/q_img/g-01 (40).jpg" alt="拯救者 Y7000 15.6英寸游戏笔记本 ">
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <script type="text/javascript">
-                    window.onload = function () {
-                        var winpic = document.getElementById("winpic");
-                        var p1 = document.getElementById("p1");
-                        var p2 = document.getElementById("p2");
-                        var p3 = document.getElementById("p3");
-                        var p4 = document.getElementById("p4");
-                        var p5 = document.getElementById("p5");
-                        var p6 = document.getElementById("p6");
-
-                        p1.onmouseover = function () {
-                            winpic.src = "../img/q_img/g-01 (51).jpg"
-                        }
-                        p2.onmouseover = function () {
-                            winpic.src = "../img/q_img/g-03 (4).jpg"
-                        }
-                        p3.onmouseover = function () {
-                            winpic.src = "../img/q_img/g-03 (3).jpg"
-                        }
-                        p4.onmouseover = function () {
-                            winpic.src = "../img/q_img/g-03 (2).jpg"
-                        }
-                        p5.onmouseover = function () {
-                            winpic.src = "../img/q_img/g-03 (1).jpg"
-                        }
-                        p6.onmouseover = function () {
-                            winpic.src = "../img/q_img/g-03 (1).jpg"
-                        }
-                    }
-                </script>
 
 
                 <div class="good_action">
@@ -320,7 +291,6 @@
                         </li>
                     </ul>
                 </div>
-
 
                 <div class="container" id="container_o2ocity">
                     <div class="container-title">支持城市<span class="more_choose"></span></div>
@@ -8601,9 +8571,11 @@
                     <div style="clear: both;"></div>
                 </div>
 
+
             </div>
         </div>
-
+        
+       
         <!-- content部分 begin -->
 
 
@@ -9152,7 +9124,9 @@
             <div class="add-count-wrap" id="addcountbox">
                 <span class="operate_stock" id="span_stock_dec"></span>
                 <span class="bg reduce" id="reduce_buy_number"></span>
+                <input type="text" class="txt" id="buy_number" value="-">
                 <input type="text" class="txt" id="buy_number" value="1">
+                <input type="text" class="txt" id="buy_number" value="+">
                 <span class="bg add" id="add_buy_number"></span>
             </div>
             <div class="operate_money"><span id="price_des">商城价：</span><span id="price_unit"></span> <span
@@ -9175,24 +9149,7 @@
 <script src="../js/animate9.0.js"></script>
 <script src="../js/c_js/c_head.js"></script>
 <script src="../js/w_js/W_denglu.js"></script>
-
-<script type="text/javascript">
-    //切换详情页     
-    var a1 = document.getElementById("a1")
-    var a2 = document.getElementById("a2")
-    var info = document.querySelectorAll(".info-box");
-    a1.onclick = function () {
-        info[0].style.display = "block"
-        info[1].style.display = "none"
-
-    }
-    a2.onclick = function () {
-        info[1].style.display = "block"
-        info[0].style.display = "none"
-
-    }
-</script>
-
+<script src="../js/q_js/q_zhengjiuzhe.js"></script>
 
 
 </body>
