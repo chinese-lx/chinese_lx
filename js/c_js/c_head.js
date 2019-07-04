@@ -20,11 +20,9 @@ var gun =function removeUnScroll() {
 
 for(let i = 0;i<r_t.length;i++){
     r_li[i].onmouseover = function(){
-    console.log(12)
     animate(r_t[i],{opacity:100},10);
 }
 r_li[i].onmouseout = function(){
-    console.log(1)
     animate(r_t[i],{opacity:0},10);
 }
 }
