@@ -53,3 +53,36 @@
             bd[index].style.background="red"
         }
     }
+
+    
+    $(".tan1").mouseover(function(){
+        $("#b_tan1").css("display","block")
+    })
+    $("#b_tan1").mouseover(function(){
+        $("#b_tan1").css("display","block")
+    })
+    $(".tan2").mouseover(function(){
+        $("#b_tan2").css("display","block")
+    })
+    $("#b_tan2").mouseover(function(){
+        $("#b_tan2").css("display","block")
+    })
+    $(".tan3").mouseover(function(){
+        $("#b_tan3").css("display","block")
+    })
+    $("#b_tan3").mouseover(function(){
+        $("#b_tan3").css("display","block")
+    })
+    $(".tan4").mouseover(function(){
+        $("#b_tan4").css("display","block")
+    })
+    $("#b_tan4").mouseover(function(){
+        $("#b_tan4").css("display","block")
+    })
+    $(".ban_tan").mouseout(function(){
+        console.log(1)
+        $("#b_tan1").css("display","none")
+        $("#b_tan2").css("display","none")
+        $("#b_tan3").css("display","none")
+        $("#b_tan4").css("display","none")
+    })
