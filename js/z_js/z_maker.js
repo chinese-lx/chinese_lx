@@ -26,5 +26,22 @@ $(function(){
 	$('.paging span:eq(0)').html('小新美图定制');
 	$('.paging span:eq(1)').html('ThinkPad美图定制');
 	$('.paging span:eq(2)').html('ThinkPad专属定制');
+<<<<<<< HEAD
 	$('.paging span:eq(3)').html('联想拯救者专属定制');	
+=======
+<<<<<<< HEAD
+	$('.paging span:eq(3)').html('联想拯救者专属定制');
+	
+	
+	
+	
+	
+	
+	
+	
+	
+=======
+	$('.paging span:eq(3)').html('联想拯救者专属定制');	
+>>>>>>> 188f47f198ed591dff9345e7ceee283e991d6760
+>>>>>>> df23f331e363bd9bee0c3cbafa391e6c3510b193
 })
