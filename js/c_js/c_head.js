@@ -18,7 +18,6 @@ var gun =function removeUnScroll() {
     $(document).unbind("scroll.unable");
 }
 
-console.log(r_t)
 for(let i = 0;i<r_t.length;i++){
     r_li[i].onmouseover = function(){
     console.log(12)
@@ -70,7 +69,6 @@ window.onmousewheel = function(){
 var sous2 =document.getElementById("sous2")
 
 var c_stop =document.getElementById("c_stop")
-console.log(sous2)
 sous2.onclick = function(){
 
     $("#c_ssk").css("display","block")

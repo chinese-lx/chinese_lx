@@ -27,6 +27,7 @@ body{
 	height: 36px;
 	line-height: 36px;
 	padding-left: 10px;
+	position: relative;
 }
 .z_header .z_phone a {
 	display: block;
@@ -44,7 +45,7 @@ body{
 	background: url(../../img/z_img/maker/qrcode.jpg) center no-repeat;
 	background-color: white;
 	position: absolute;
-	left: 433px;
+	left: 0px;
 	top: 36px;
 	display: none;
 	z-index: 9999;
