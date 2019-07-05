@@ -45,7 +45,7 @@ $(function(){
 	var endDate = new Date("2019-06-30 23:59:59");
 	var timer = (endDate.getTime() - startDate.getTime())/1000/60/60/24;
 	var lastDays = parseInt(timer);
-	if(lastDays==0){
+	if(lastDays<=0){
 		lastDays = 0;
 		$('.joinRaise_top .span2').css('background','#7e7e7e')
 	}

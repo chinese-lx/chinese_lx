@@ -330,11 +330,18 @@ a.d_leftarr{
     border-bottom:10px solid transparent;
     border-right:12px solid #fff;
 }
+.d_imagesbox{
+    width:450px;
+    height:86px;
+    position:relative;
+    overflow: hidden;
+    float:left;
+}
 .d_imgsmall{
-   width:475px;
+   width:810px;
    float:left;
-   overflow: hidden;
    height:86px;
+   position:absolute;
 }
 .d_imgsmall li{
     height:84px;
@@ -342,7 +349,6 @@ a.d_leftarr{
     border:1px solid #dcdcdc;
     float: left;
     margin-right:4px;
-    position:relative;
 }
 .d_imgsmall .d_imgchecked{
     border: solid 1px #e2231a;
@@ -424,11 +430,13 @@ a.d_rightarr{
    background: #f6f7f8;
    height:52px;
    margin-bottom:10px;
+   width:100%;
 }
+
 .d_grayinner{
     width:1200px;
     margin:0 auto;
-    position: relative;
+    position:relative;
 }
 .d_grayinner .d_biaoti{
     line-height:52px;

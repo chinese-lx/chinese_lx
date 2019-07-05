@@ -8,9 +8,9 @@ $(function () {
             var result = '';
             $.each(json, function (index, value) {
                 if(index<10){
-                    result += '<div class="d_list"><div class="d_img"><img src="' + value.path +
+                    result += '<div class="d_list"><a href="d_itemgoods.html"><div class="d_img"><img src="' + value.path +
                  '" alt=""></div><div class="d_detailbox"><p class="d_details">' + value.details + 
-                 '</p></div><p class="d_price"><span class="wordorange">' + value.price +
+                 '</p></div></a><p class="d_price"><span class="wordorange">' + value.price +
                   '</span>+<span class="wordorange">' + value.virtual + '</span>乐豆</p></div>';
                 }
             });    
@@ -35,8 +35,8 @@ $(function () {
             var result = '';
             $.each(json, function (index, value) {
                 if(index<10){
-                    result += '<div class="d_list"><div class="d_img"><img src="' + value.path +
-                 '" alt=""></div><div class="d_detailbox"><p class="d_details">' + value.details + 
+                    result += '<div class="d_list"><a href="d_itemgoods.html"><div class="d_img"><img src="' + value.path +
+                 '" alt=""></div></a><div class="d_detailbox"><p class="d_details">' + value.details + 
                  '</p></div><p class="d_price"><span class="wordorange">' + value.price +
                   '</span>+<span class="wordorange">' + value.virtual + '</span>乐豆</p></div>';
                 }
@@ -109,9 +109,9 @@ $(function () {
             var data='';
             $.each(json,function(i,v){
                 if(i<count*10 && i>=count*10-10){
-                    data += '<div class="d_list"><div class="d_img"><img src="' + v.path +
+                    data += '<div class="d_list"><a href="d_itemgoods.html"><div class="d_img"><img src="' + v.path +
                     '" alt=""></div><div class="d_detailbox"><p class="d_details">' + v.details + 
-                    '</p></div><p class="d_price"><span class="wordorange">' + v.price +
+                    '</p></div></a><p class="d_price"><span class="wordorange">' + v.price +
                      '</span>+<span class="wordorange">' + v.virtual + '</span>乐豆</p></div>'; 
                 }
             })

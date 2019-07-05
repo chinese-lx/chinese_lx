@@ -27,14 +27,7 @@ body{
 	height: 36px;
 	line-height: 36px;
 	padding-left: 10px;
-<<<<<<< HEAD
 	position: relative;
-=======
-<<<<<<< HEAD
-=======
-	position: relative;
->>>>>>> 188f47f198ed591dff9345e7ceee283e991d6760
->>>>>>> df23f331e363bd9bee0c3cbafa391e6c3510b193
 }
 .z_header .z_phone a {
 	display: block;
@@ -52,15 +45,7 @@ body{
 	background: url(../../img/z_img/maker/qrcode.jpg) center no-repeat;
 	background-color: white;
 	position: absolute;
-<<<<<<< HEAD
 	left: 0px;
-=======
-<<<<<<< HEAD
-	left: 433px;
-=======
-	left: 0px;
->>>>>>> 188f47f198ed591dff9345e7ceee283e991d6760
->>>>>>> df23f331e363bd9bee0c3cbafa391e6c3510b193
 	top: 36px;
 	display: none;
 	z-index: 9999;

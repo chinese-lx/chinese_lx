@@ -80,7 +80,6 @@
         $("#b_tan4").css("display","block")
     })
     $(".ban_tan").mouseout(function(){
-        console.log(1)
         $("#b_tan1").css("display","none")
         $("#b_tan2").css("display","none")
         $("#b_tan3").css("display","none")

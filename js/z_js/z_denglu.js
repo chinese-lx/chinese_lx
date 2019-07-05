@@ -3,7 +3,6 @@ var register=document.querySelector('.register');
 var tuichu=document.querySelector('.tuichu');
 var ppmask=document.querySelector('.ppmask');
 var regist=document.querySelector('.regist');
-var login=document.querySelector('.login');
 var regist=document.querySelector('.regist');
 var zhucedle=document.querySelector('.zhucedle');
 var adv=document.querySelector('.adv');
@@ -19,13 +18,8 @@ tuichu.onclick=function(){
 register.onclick=function(){
     enter.style.display="block";
     ppmask.style.display='block';
-};
 
-login.onclick=function(){ 
-    regist.style.display="block";
-    ppmask.style.display='block';  
 }
-
 
 zhucedle.onclick=function(){
     ppmask.style.display="none";
@@ -47,8 +41,6 @@ $("#usname").blur(function(){
     var emRreg=/^[1-9a-zA-Z]\w{2,19}@\w{2,10}(\.[a-zA-Z]{2,4}){1,}$/;
     cc=emRreg.test(emVl); 
     bb=phRreg.test(emVl);
-    console.log(cc)
-    console.log(bb)
  if(cc||bb){
 
  }else{
@@ -61,7 +53,6 @@ $("#password").blur(function(){
     var pslvv=$("#password").val();
     var psRreg = /^\d{6,8}$/;
     dd=psRreg.test(pslvv);
-    console.log(dd)
  if(dd){
 
  }else{
@@ -112,7 +103,7 @@ $('.submita').click(function () {
         alert("密码不一致 重新输入")
 }else{
         $.ajax({     
-        url: '../data/w_json/login.php',
+        url: 'data/w_json/login.php',
         type: 'get',
         data: "act=add&user="+user+"&pass="+pass,// login.php?act=xxx&user=用户名&pass=密码
         dataType: 'json',
@@ -149,7 +140,7 @@ $('.submita2').click(function () {
             dataType: 'json',
             cache: false,//不使用缓存
             success: function (json){
-                console.log(json)
+                
                 alert(json.msg); 
                 if(json.err==1){
                     $('.enter').css("display","block");
@@ -157,15 +148,8 @@ $('.submita2').click(function () {
                 }else{
                     $('.enter').css("display","none");
                 $('.ppmask').css("display","none");
-
-                
-                login.innerHTML="账号:"+user                
-                register.style.display="none"
-                
-
-            }
-                
-                           
+                register.innerHTML=user;
+            }            
             },
             error: function (err) {
                 // console.log(err);
@@ -177,15 +161,3 @@ $('.submita2').click(function () {
     
 })
 
- $('.w_append').click(function(){
-    var shuzi=parseInt($('.w_text').val())+1
-    $('.w_text').val(shuzi)
-    
- })
-$('.w_subtract').click(function(){
-    var shuzi=parseInt($('.w_text').val())-1
-    $('.w_text').val(shuzi)
-    if(shuzi<0){
-        $('.w_text').val(0)
-    }
-})

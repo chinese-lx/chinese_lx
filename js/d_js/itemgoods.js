@@ -109,33 +109,85 @@ $(document).ready(function(){
    
     //小图区的箭头点击事件
     //左箭头的点击
+    // $('.d_leftarr').click(function(){
+    //     //如果当前的是第一张图
+    //     if($('.d_imgchecked').attr('index')==1){
+    //         $(this).css('opacity','0.3');
+    //     }else{//如果不是第一张图
+    //         $(this).css('opacity','1');
+    //         $('.d_imgchecked').removeClass('d_imgchecked').prev().addClass('d_imgchecked');
+    //         var newIndex = $('.d_imgchecked').attr('index');
+    //         if(newIndex==1){
+    //             $(this).css('opacity','0.3');
+    //         }
+    //         $('.d_bigimg').find('img').attr('src','../img/d_img/itemgoods/d_big'+newIndex+'.jpg'); 
+    //     }
+    // });
+    
+    //点击一次左箭头，在现有的left上向右走90px ，left:[-720,0]
+    //点一次在当前的left上+90
+    
     $('.d_leftarr').click(function(){
-        //如果当前的是第一张图
-        if($('.d_imgchecked').attr('index')==1){
-            $(this).css('opacity','0.3');
-        }else{//如果不是第一张图
-            $(this).css('opacity','1');
-            $('.d_imgchecked').removeClass('d_imgchecked').prev().addClass('d_imgchecked');
-            var newIndex = $('.d_imgchecked').attr('index');
-            if(newIndex==1){
-                $(this).css('opacity','0.3');
-            }
-            $('.d_bigimg').find('img').attr('src','../img/d_img/itemgoods/d_big'+newIndex+'.jpg'); 
-        }
-    });
-    //右箭头的点击事件
-    $('.d_rightarr').click(function(){
-        if($('.d_imgchecked').attr('index')==5){
-            // $('.d_imgsmall li').css('left','-450px');
+        var current=parseInt($('.d_imgsmall').css('left'))/(90);
+       
+        if(current==0){//如果当前的位置是0
             return;
         }else{
-            if( $('.d_imgchecked')==1){
-                $('.d_leftarr').css('opacity','0.3'); 
-            }
-            $('.d_leftarr').css('opacity','1'); 
-            $('.d_imgchecked').removeClass('d_imgchecked').next().addClass('d_imgchecked');
-            var newIndex = $('.d_imgchecked').attr('index');
-            $('.d_bigimg').find('img').attr('src','../img/d_img/itemgoods/d_big'+newIndex+'.jpg'); 
+            current++;
         }
+        $('.d_imgsmall').animate({
+            left:(current)*(90)
+        },500,'linear');
     });
+
+    //右箭头的点击事件
+//     $('.d_rightarr').click(function(){
+//         if($('.d_imgchecked').attr('index')==5){
+//             // $('.d_imgsmall li').css('left','-450px');
+//             return;
+//         }else{
+//             if( $('.d_imgchecked')==1){
+//                 $('.d_leftarr').css('opacity','0.3'); 
+//             }
+//             $('.d_leftarr').css('opacity','1'); 
+//             $('.d_imgchecked').removeClass('d_imgchecked').next().addClass('d_imgchecked');
+//             var newIndex = $('.d_imgchecked').attr('index');
+//             $('.d_bigimg').find('img').attr('src','../img/d_img/itemgoods/d_big'+newIndex+'.jpg'); 
+//         }
+//     });
+// });
+    
+    $('.d_rightarr').click(function(){
+        var current=parseInt($('.d_imgsmall').css('left'))/(-90);
+        
+        if(current==8){//当前的位置是-720px
+            return;
+        }else{
+            current++;
+        }
+        $('.d_imgsmall').animate({
+            left:(current)*(-90)
+        },500,'swing');
+    });
+
+    var h=parseInt($('.d_gray').offset().top);
+    var t=$('.nav').height();
+    //获取浏览器窗口的宽
+    window.onscroll=function(){
+        if(document.documentElement.scrollTop>(h)){
+            $('.d_gray').css({
+                position:"fixed",
+                top:50,
+                zIndex:9999
+            });
+            $('.d_imgwrap').css('margin-bottom','150px');
+        }
+        if(document.documentElement.scrollTop<(h)){
+            $('.d_gray').css({
+                position:"static"
+            });
+             $('.d_imgwrap').css('margin-bottom','0');
+        }
+    }
+
 });
